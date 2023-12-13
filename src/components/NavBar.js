@@ -1,5 +1,21 @@
+import {useEffect, useState} from "react";
 import {NavBar, Container, Button } from "bootstrap"
 export const NavBar = {} => {
+    const [activeLink, setActiveLink] =useState('home');
+    const [scolled, seScrolled] = useState[false];
+
+    useEffect(() => {
+        const onScroll =() => {
+            if (window.scrollY > 50) {
+                seScrolled(true);
+            } else {
+                seScrolled(false);
+            }
+        }
+        window.addEventListener("scroll", onScroll);
+        return() => window
+    
+    }, [] )
     return(
 <Navbar  expand="lg">
 <Container>
@@ -20,7 +36,7 @@ export const NavBar = {} => {
             <a href="#"><img src={} alt="" /> </a>
             <a href="#"><img src={} alt="" /> </a>
         </div>
-        <Button className="contact" onClick={{} => console.log("connect")}><span>Contact Us</span>
+        <button className="contact"> onClick={() => console.log('connect')}</button><span>Contact Us</span>
     </span>
   </Navbar.Collapse>
 </Container>
