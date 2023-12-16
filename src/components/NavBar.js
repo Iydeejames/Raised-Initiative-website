@@ -13,11 +13,11 @@ export const NavBar = {} => {
             }
         }
         window.addEventListener("scroll", onScroll);
-        return() => window
+        return() => window.removeEventListener("scroll", onScroll)
     
     }, [] )
     return(
-<Navbar  expand="lg">
+<Navbar  expand="lg" className={ scrolled ? "scrolled": ""}>
 <Container>
   <Navbar.Brand href="#home">
     <img src ={''} alt ="logo" /> 
@@ -25,7 +25,7 @@ export const NavBar = {} => {
   <Navbar.Toggle aria-controls="basic-navbar-nav"> </Navbar.Toggle>
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="#home" className={activeLink === "home" ? "active NavBar-link": ""} >Home</Nav.Link>
       <Nav.Link href="#link">What We Do</Nav.Link>
       <Nav.Link href="#link">Events</Nav.Link>
       <Nav.Link href="#link">Countries</Nav.Link>
