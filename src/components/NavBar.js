@@ -25,10 +25,10 @@ export const NavBar = {} => {
   <Navbar.Toggle aria-controls="basic-navbar-nav"> </Navbar.Toggle>
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link href="#home" className={activeLink === "home" ? "active NavBar-link": ""} >Home</Nav.Link>
-      <Nav.Link href="#link" className={activeLink === "What We Do" ? "active NavBar-link": ""}>What We Do</Nav.Link>
-      <Nav.Link href="#link" className={activeLink === "Events" ? "active NavBar-link": ""}>Events</Nav.Link>
-      <Nav.Link href="#link" className={activeLink === "Countries" ? "active NavBar-link": ""}>Countries</Nav.Link>
+      <Nav.Link href="#home" className={activeLink === "home" ? "active NavBar-link": ""} onClick={ () => onUpdateActiveLink ("home")} >Home</Nav.Link>
+      <Nav.Link href="#link" className={activeLink === "what we do" ? "active NavBar-link": ""} onClick={ () => onUpdateActiveLink ("what we do")}>What We Do</Nav.Link>
+      <Nav.Link href="#link" className={activeLink === "events" ? "active NavBar-link": ""} onClick={ () => onUpdateActiveLink ("events")}>Events</Nav.Link>
+      <Nav.Link href="#link" className={activeLink === "countries" ? "active NavBar-link": ""} onClick={ () => onUpdateActiveLink ("countries")}>Countries</Nav.Link>
     </Nav>
     <span className="navbar-text">
         <div className="social-icon">
