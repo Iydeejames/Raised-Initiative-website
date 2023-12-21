@@ -1,4 +1,5 @@
 import React from 'react';
+import'./App.css';
 import { CustomNavbar } from './components/NavBar'; // Navbar is in the components folder
 
 function App() {
