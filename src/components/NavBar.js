@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap"; // using react-bootstrap
+import RI7 from "../assets/img/RI7.jpg";
 
 export const CustomNavbar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -26,7 +27,7 @@ export const CustomNavbar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={''} alt="Surpassing Mediocrity" />
+          <img src={RI7} alt="Surpassing Mediocrity" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
