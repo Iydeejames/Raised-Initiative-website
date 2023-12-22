@@ -3,11 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
+  font-family: "work Sans", sans-serif;
 }
 
 .html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
+  font-size: 62.5%;
 }
 
 .body{
@@ -32,6 +35,7 @@ p.danger {
   color: red;
 }
 
+/* End of Default CSS */
 .navbar {
   color: #fff;
   background-color: rgb(66, 161, 224);
@@ -102,9 +106,69 @@ span.navbar-text {
 
 /* hover effects for Navbar links */
 .NavBar-link:hover {
-  color: #f0f0f0;
+  color: #000;
   transition: 0.8s;
+  transform: scale(1.1);
 }
+
+
+/* .hero-section {
+  position: relative;
+} */
+
+.slideshow-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+
 
 
 .App {
