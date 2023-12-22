@@ -131,13 +131,13 @@ span.navbar-text {
 
 .hero-image {
   width: 80%;
-  height: 100%;
+  height: auto;
   margin-top: 8rem;
-  margin-left: 4rem;
+  margin-left: 3rem;
   border-radius: 3rem;
   opacity: 0.6;
-  transition: opacity 3s ease-in;
 }
+
 
 .hero-content {
   font-size: 1.8rem;
@@ -158,8 +158,11 @@ span.navbar-text {
 }
 
 .hero-text h5 {
-  margin-left: 63%;
+  font-family: cursive;
+  font-size: 1.4rem;
+  margin-left: 66%;
   width: max-content;
+  margin-top: -1rem;
 }
 
 .hero-text p {

@@ -30,7 +30,8 @@ const HeroSection = () => {
             key={index}
             className={`slide ${index === currentIndex ? 'active' : ''}`}
           >
-            <img src={image} alt={`Slide ${index + 1}`} className="hero-image" />
+        <img src={image} alt={`Slide ${index + 1}`} className="hero-image" />
+
           </div>
         ))}
       </div>
