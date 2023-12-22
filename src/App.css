@@ -15,7 +15,7 @@
   overflow: hidden;
   position: relative;
   background-color: #fff !important ;
-  color: #000 !important;
+  color: skyblue !important;
   font-family: 'Times New Roman', Times, serif !important;
 }
 
@@ -32,8 +32,28 @@ p.danger {
   color: red;
 }
 
+.navbar {
+  color: #fff;
+  background-color: rgb(66, 161, 224);
+  height: 4rem;
+}
+
+.NavBar-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3rem;
+  margin-left: 3rem;
+  margin-top: -4rem;
+}
+
+.navbar-nav {
+  display: flex; 
+  justify-content: flex-end;
+}
+
 nav.navbar {
-  padding: 18px 0;
+  padding: 8px 0;
   position: fixed;
   width: 100%;
   top: 0;
@@ -46,17 +66,15 @@ nav.navbar.scrolled {
   background-color: #373d4b;
 }
 
-nav.navbar a.navbar-band {
+ a.Navbar-brand {
   width: 9%;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
-  color: #000 !important;
-  letter-spacing: 0.8px;
-  padding: 0 25px;
-  font-size: 18px;
-  opacity: 0.75;
+.logo-image {
+  margin-top: 0.8rem;
+  width: 90px;
+  height: auto;
+  margin-right: 90% !important;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -70,8 +88,24 @@ span.navbar-text {
 }
 
 .social-icon {
-  display: inline-block;
+  display: flex;
 }
+
+/* Contact button styling */
+.contact {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* hover effects for Navbar links */
+.NavBar-link:hover {
+  color: #f0f0f0;
+  transition: 0.8s;
+}
+
 
 .App {
   text-align: center;
@@ -111,3 +145,6 @@ span.navbar-text {
     transform: rotate(360deg);
   }
 }
+
+
+
