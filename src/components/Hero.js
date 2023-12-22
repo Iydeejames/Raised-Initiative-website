@@ -3,12 +3,11 @@ import RI10 from "../assets/img/RI10.JPG";
 import RI11 from "../assets/img/RI11.JPG";
 import RI12 from "../assets/img/RI12.JPG";
 import RI13 from "../assets/img/RI13.JPG";
-import RI14 from "../assets/img/RI14.JPG";
 import RI16 from "../assets/img/RI16.JPG";
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = [RI12, RI11 , RI10, RI13, RI16, RI14];
+  const images = [RI12, RI11 , RI10, RI13, RI16];
 
   useEffect(() => {
     const interval = setInterval(() => {
