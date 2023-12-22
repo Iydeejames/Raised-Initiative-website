@@ -137,7 +137,7 @@ span.navbar-text {
 .hero-content {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 70%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #000;

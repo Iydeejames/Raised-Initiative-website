@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from "react";
 import RI10 from "../assets/img/RI10.JPG";
 import RI11 from "../assets/img/RI11.JPG";
+import RI12 from "../assets/img/RI12.JPG";
+import RI13 from "../assets/img/RI13.JPG";
+import RI15 from "../assets/img/RI15.JPG";
+import RI16 from "../assets/img/RI16.JPG";
 
 const HeroSection = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const images = ["RI10.JPG", "RI11.JPG", "image3.jpg"]; // Replace with your image paths
+  const images = [RI12, RI11 , RI10, RI13, RI16, RI15];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -34,10 +38,10 @@ const HeroSection = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h1>Raised Initiative</h1>
+          <h5>Surpassing Mediocrity</h5>
           <p>
             Raised Initiative is an African people's organization that seeks to provide the necessary platform for Africans to build a better, progressive, empowered, and peaceful Africa. We are doing this through SDG 4, SDG 6, and Capacity building.
           </p>
-          <button onClick={handleButtonClick} className="cta-button">Learn More</button>
         </div>
       </div>
     </div>
