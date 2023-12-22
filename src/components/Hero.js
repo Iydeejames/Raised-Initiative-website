@@ -18,7 +18,7 @@ const HeroSection = () => {
   }, [currentIndex, images.length]);
 
   const handleButtonClick = () => {
-    // Add your custom functionality when the button is clicked
+    // Add custom functionality when the button is clicked
     console.log("Button Clicked!");
   };
 
