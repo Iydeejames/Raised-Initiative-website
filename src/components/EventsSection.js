@@ -1,5 +1,5 @@
-
 import React, { useEffect, useState } from "react";
+import RI8 from "../assets/img/RI8.jpg";
 
 const eventsData = [
     {
@@ -90,8 +90,7 @@ const eventsData = [
           ))}
         </div>
         <div className="image-container">
-          {/* Replace with your actual image source */}
-          <img src="your-image-source.jpg" alt="Event Image" />
+          <img src= { RI8 } alt="" />
         </div>
       </div>
     );

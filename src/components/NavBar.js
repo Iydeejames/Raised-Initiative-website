@@ -32,8 +32,9 @@ export const CustomNavbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-      <Nav.Link href="#home" className={activeLink === "home" ? "active NavBar-link": "NavBar-link" } onClick={ () => onUpdateActiveLink ("home")} >Home</Nav.Link>
+      <Nav.Link href="#home" className={activeLink === "home" ? "active NavBar-link": "NavBar-link" } onClick={ () => onUpdateActiveLink ("home")}>Home</Nav.Link>
       <Nav.Link href="#mission" className={activeLink === "mission" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("mission")}>Mission</Nav.Link>
+      <Nav.Link href="#leaders" className={activeLink === "leaders" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("leaders")}>Leaders</Nav.Link>
       <Nav.Link href="#events" className={activeLink === "events" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("events")}>Events</Nav.Link>
       <Nav.Link href="#countries" className={activeLink === "countries" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("countries")}>Countries</Nav.Link>
     </Nav>
