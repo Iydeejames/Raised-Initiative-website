@@ -236,6 +236,43 @@ span.navbar-text {
 /* End of Banner Section */
 
 /* LeadersSection */
+.leaders-section {
+  width: 100%;
+  height: 120vh;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leader-frame {
+  display: flex;
+}
+
+.leader {
+  margin: 20px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.leader img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 8px solid #333;
+  border-radius: 50%;
+}
+
+.leader p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 1;
+}
 /* End of LeadersSection */
 
 
