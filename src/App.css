@@ -275,6 +275,22 @@ span.navbar-text {
 /* End of LeadersSection */
 
 /* EventsSection */
+.event-card {
+  width: 500px;
+  height: 400px;
+  background-color: rgb(66, 161, 224);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 2.5rem;
+  opacity: 0;
+  margin-left: 200px;
+  top: -12rem;
+  transition: opacity 1.2s ease-in-out;
+}
+
 .events-section {
   display: flex;
   justify-content: space-between;
@@ -283,39 +299,44 @@ span.navbar-text {
   overflow: hidden;
 }
 
-.event-card {
-  width: 300px;
-  height: 300px;
-  background-color: #007bff;
-  border-radius: 16px;
+.events-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  transition: transform 1.5s ease-in-out;
+  position: relative; /* Add this to establish a positioning context */
+}
+
+.event-card.active {
+  opacity: 1;
 }
 
 .event-card h2,
 .event-card p {
   color: #fff;
   text-align: center;
+  margin: 0;
+  line-height: 2rem;
 }
 
-.card-1 { transform: rotate(0deg); }
-.card-2 { transform: rotate(30deg); }
-.card-3 { transform: rotate(60deg); }
-.card-4 { transform: rotate(90deg); }
-.card-5 { transform: rotate(120deg); }
-.card-6 { transform: rotate(150deg); }
-.card-7 { transform: rotate(180deg); }
-.card-8 { transform: rotate(210deg); }
-.card-9 { transform: rotate(240deg); }
-.card-10 { transform: rotate(270deg); }
-.card-11 { transform: rotate(300deg); }
-.card-12 { transform: rotate(330deg); }
-
-.event-card:hover {
-  transform: scale(1.2);
+.navigation-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
 }
-/* End of EventsSection */
 
+.prev-button,
+.next-button {
+  background-color: #fff;
+  color: rgb(66, 161, 224);
+  border: none;
+  border-radius: 40%;
+  font-size: 15px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #918c8c;
+}
