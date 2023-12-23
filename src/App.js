@@ -4,6 +4,7 @@ import { CustomNavbar } from './components/NavBar'; // Navbar is in the componen
 import HeroSection from './components/Hero';
 import BannerSection from './components/Banner';
 import LeadersSection from './components/Leaders';
+import EventsSection from './components/EventsSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
        <HeroSection />
        <BannerSection />
        <LeadersSection/>
+       <EventsSection/>
       {/* Add other components/content here */}
     </div>
   );

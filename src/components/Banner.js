@@ -4,7 +4,7 @@ const BannerSection = () => {
   return (
     <div className="banner-section">
       <div className="left-content">
-        <h2>Our Mission:</h2>
+        <h3>Our Mission:</h3>
         <p>
           The mission of this organization is to be independent of any political ideology, religious doctrine, and economic interest but rather a value-adding organization driving the African development process through every positive means.
         </p>
