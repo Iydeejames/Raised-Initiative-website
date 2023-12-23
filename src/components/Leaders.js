@@ -5,11 +5,12 @@ import RI6 from "../assets/img/RI6.JPG";
 import RI3 from "../assets/img/RI3.jpg";
 import RI2 from "../assets/img/RI2.jpg";
 
-const leadersData = [
+  
+  const leadersData = [
     { id: 1, name: "Leader Name 1", image: RI1 },
-    { id: 2, name: "Leader Name 2", image: RI2 },
+    { id: 2, name: "UKEMEOBONG JAMES", image: RI6 },
     { id: 3, name: "Leader Name 3", image: RI3 },
-    { id: 4, name: "Leader Name 4", image: RI6 },
+    { id: 4, name: "Leader Name 4", image: RI2 },
     // Add more leaders as needed
   ];
   
@@ -20,9 +21,7 @@ const leadersData = [
           {leadersData.map((leader) => (
             <div key={leader.id} className="leader-card">
               <img src={leader.image} alt={leader.name} className="leader-image" />
-              <div className="overlay">
-                <p className="leader-name">{leader.name}</p>
-              </div>
+              <p className="leader-name">{leader.name}</p>
             </div>
           ))}
         </div>
