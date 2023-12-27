@@ -37,7 +37,8 @@ const HeroSection = () => {
             <h1>RAISED Initiatives</h1>
             <h5>Surpassing Mediocrity</h5>
             <p>
-              Raised Initiative is an African people's organization that seeks to provide the necessary platform for Africans to build a better, progressive, empowered, and peaceful Africa. We are doing this through SDG 4, SDG 6, and Capacity building.
+            <b>RAISED (Reforming Africa through Inspiration and Seminar for Empowered Development) Initiatives</b> is an African people's organization that seeks to provide the necessary platform for Africans to build a better, progressive, empowered, and peaceful Africa. We are doing this through SDG 4, SDG 6, and Capacity building.
+              At <b>RAISED Initiatives</b> we are convinced Africa can be great, and Africa will be great. We are dedicated to the task of making our continent great again.
             </p>
           </div>
         </div>
