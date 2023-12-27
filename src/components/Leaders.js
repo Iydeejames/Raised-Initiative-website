@@ -19,6 +19,7 @@ import RI2 from "../assets/img/RI2.jpg";
   const LeadersSection = () => {
     return (
       <div className="leaders-section">
+              <div class="floating-bg"></div>
         <div className="leader-frame">
           {leadersData.map((leader) => (
             <div key={leader.id} className="leader-card">
