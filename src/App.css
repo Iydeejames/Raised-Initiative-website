@@ -19,8 +19,8 @@
   position: relative;
   background-color: #fff !important ;
   color: skyblue !important;
-  font-family: 'Times New Roman', Times, serif !important;
-}
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+};
 
 h1, h2, h3, h4, h5, h6{
   margin: 0;
@@ -46,6 +46,7 @@ p.danger {
 .NavBar-link {
   font-weight: bold;
   text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #fff;
   font-size: 1.3rem;
   margin-left: 3rem;
@@ -201,7 +202,7 @@ span.navbar-text {
 }
 
 .slide.active {
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .hero-image {
@@ -226,7 +227,7 @@ span.navbar-text {
 .hero-text h1 {
   font-size: 6.5rem;
   margin-top: 5rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-bottom: -1px;
   width: max-content;
 }
@@ -238,9 +239,9 @@ span.navbar-text {
 }
 
 .hero-text h5 {
-  font-family: cursive;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1.4rem;
-  margin-left: 66%;
+  margin-left: 72%;
   width: max-content;
   margin-top: -1rem;
 }

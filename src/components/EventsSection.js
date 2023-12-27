@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import RI8 from "../assets/img/RI8.jpg";
+// import RI8 from "../assets/img/RI8.jpg";
 
 const eventsData = [
     {
@@ -90,7 +90,7 @@ const eventsData = [
           ))}
         </div>
         <div className="image-container">
-          <img src= { RI8 } alt="" />
+          <img src= {""} alt="" />
         </div>
       </div>
     );
