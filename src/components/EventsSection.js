@@ -54,7 +54,7 @@ import React, { useEffect, useState } from "react";
     useEffect(() => {
       const interval = setInterval(() => {
         nextSlide();
-      }, 5000); // Change slide every 5 seconds
+      }, 8000); // Change slide every 5 seconds
   
       return () => clearInterval(interval);
     }, [currentEventIndex]);
