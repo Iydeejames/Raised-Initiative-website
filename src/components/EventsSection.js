@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 // import RI8 from "../assets/img/RI8.jpg";
 
-const eventsData = [
+ const eventsData = [
     {
-      title: "Economic Empowerment Program",
+      title: "Economic Empowerment Program", 
       description: "Economic Empowerment is a center piece of our drive as an organization, and the reformation of Africa is not complete until we have every African adult of the right working age being economically empowered. Thus we undertake various economic empowerment programs aimed at alleviating the financial condition of our members and the economic situation of our great continent at large.",
     },
     {
@@ -47,8 +47,6 @@ const eventsData = [
       description: "To get to our destination of a reformed Africa, part of our activities include active research towards issues bothering the development of Africa. This is one of our important pillars as an organization towards the actualization and achievement of a reformed Africa.",
     },
   ];
-
-  
 
   const EventsSection = () => {
     const [currentEventIndex, setCurrentEventIndex] = useState(0);
@@ -97,3 +95,4 @@ const eventsData = [
   };
   
   export default EventsSection;
+
