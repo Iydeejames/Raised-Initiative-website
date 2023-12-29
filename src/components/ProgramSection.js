@@ -4,26 +4,26 @@ import RI5 from "../assets/img/RI5.jpg";
 const programsData = [
   {
     id: 1,
-    title: 'Economic Empowerment Program',
-    image: 'RI5',
+    title: 'Pan African Talk',
+    image: RI5,
     link: 'https://example.com/program1',
   },
   {
     id: 2,
     title: 'Pan African Conference',
-    image: 'RI5',
+    image: RI5,
     link: 'https://example.com/program2',
   },
   {
     id: 3,
     title: 'Mentor +',
-    image: 'RI5',
+    image: RI5,
     link: 'https://example.com/program3',
   },
   {
     id: 4,
     title: 'AU Agenda 2063 and UN SDGs Awareness Program',
-    image: 'RI5',
+    image: RI5,
     link: 'https://example.com/program4',
   },
 ];
