@@ -1,28 +1,29 @@
 import React from 'react';
+import RI5 from "../assets/img/RI5.jpg";
 
 const programsData = [
   {
     id: 1,
     title: 'Economic Empowerment Program',
-    image: 'path-to-image-1.jpg',
+    image: 'RI5',
     link: 'https://example.com/program1',
   },
   {
     id: 2,
     title: 'Pan African Conference',
-    image: 'path-to-image-2.jpg',
+    image: 'RI5',
     link: 'https://example.com/program2',
   },
   {
     id: 3,
     title: 'Mentor +',
-    image: 'path-to-image-3.jpg',
+    image: 'RI5',
     link: 'https://example.com/program3',
   },
   {
     id: 4,
     title: 'AU Agenda 2063 and UN SDGs Awareness Program',
-    image: 'path-to-image-4.jpg',
+    image: 'RI5',
     link: 'https://example.com/program4',
   },
 ];
