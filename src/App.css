@@ -496,10 +496,10 @@ export default EventsSection;
 /* Program Section */
 
 .programs-section {
-  display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  display: flex;
 }
 
 .program-card {
