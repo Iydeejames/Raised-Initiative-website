@@ -1,30 +1,61 @@
 import React from 'react';
 import RI5 from "../assets/img/RI5.jpg";
+import RI22 from "../assets/img/RI22.PNG";
+import RI23 from "../assets/img/RI23.JPG";
+import RI24 from "../assets/img/RI24.JPG";
+import RI25 from "../assets/img/RI25.JPG";
+import RI26 from "../assets/img/RI26.JPG";
+import RI27 from "../assets/img/RI27.JPG";
+import RI28 from "../assets/img/RI28.JPG";
 
 const programsData = [
   {
     id: 1,
     title: 'Pan African Talk',
     image: RI5,
-    link: 'https://example.com/program1',
+    link: '',
   },
   {
     id: 2,
-    title: 'Pan African Conference',
-    image: RI5,
-    link: 'https://example.com/program2',
+    title: 'Pan African Talk',
+    image: RI23,
+    link: '',
   },
   {
     id: 3,
-    title: 'Mentor +',
-    image: RI5,
-    link: 'https://example.com/program3',
+    title: 'Membership Application',
+    image: RI24,
+    link: '',
   },
   {
     id: 4,
-    title: 'AU Agenda 2063 and UN SDGs Awareness Program',
-    image: RI5,
-    link: 'https://example.com/program4',
+    title: 'School of African Initiative Program',
+    image: RI25,
+    link: '#',
+  },
+  {
+    id: 4,
+    title: 'School of African Initiative Program',
+    image: RI26,
+    link: '#',
+  },
+  {
+    id: 4,
+    title: 'School of African Initiative Program',
+    image: RI27,
+    link: '#',
+  },
+  {
+    id: 4,
+    title: 'School of African Initiative Program',
+    image: RI28,
+    link: '#',
+  },
+  {
+    id: 4,
+    title: 'School of African Initiative Program',
+    image: RI22,
+    link: '#',
   },
 ];
 
