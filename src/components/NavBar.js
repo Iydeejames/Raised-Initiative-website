@@ -36,7 +36,7 @@ export const CustomNavbar = () => {
       <Nav.Link href="#mission" className={activeLink === "mission" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("mission")}>Mission</Nav.Link>
       <Nav.Link href="#leaders" className={activeLink === "leaders" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("leaders")}>Leaders</Nav.Link>
       <Nav.Link href="#events" className={activeLink === "events" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("events")}>Events</Nav.Link>
-      <Nav.Link href="#countries" className={activeLink === "countries" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("countries")}>Countries</Nav.Link>
+  
     </Nav>
           <span className="navbar-text">
             <div className="social-icon">

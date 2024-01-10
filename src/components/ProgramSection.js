@@ -9,6 +9,36 @@ import RI27 from "../assets/img/RI27.JPG";
 import RI28 from "../assets/img/RI28.JPG";
 
 const programsData = [
+    {
+        id: 4,
+        title: 'Human Capital Development',
+        image: RI27,
+        link: '#',
+      },
+      {
+        id: 4,
+        title: 'Wish for a Better Africa',
+        image: RI28,
+        link: '#',
+      },
+  {
+    id: 3,
+    title: 'Membership Application',
+    image: RI24,
+    link: '',
+  },
+  {
+    id: 4,
+    title: 'Afrika Yetu',
+    image: RI25,
+    link: '#',
+  },
+  {
+    id: 4,
+    title: 'Call for Membership',
+    image: RI26,
+    link: '#',
+  },
   {
     id: 1,
     title: 'Pan African Talk',
@@ -20,36 +50,6 @@ const programsData = [
     title: 'Pan African Talk',
     image: RI23,
     link: '',
-  },
-  {
-    id: 3,
-    title: 'Membership Application',
-    image: RI24,
-    link: '',
-  },
-  {
-    id: 4,
-    title: 'School of African Initiative Program',
-    image: RI25,
-    link: '#',
-  },
-  {
-    id: 4,
-    title: 'School of African Initiative Program',
-    image: RI26,
-    link: '#',
-  },
-  {
-    id: 4,
-    title: 'School of African Initiative Program',
-    image: RI27,
-    link: '#',
-  },
-  {
-    id: 4,
-    title: 'School of African Initiative Program',
-    image: RI28,
-    link: '#',
   },
   {
     id: 4,

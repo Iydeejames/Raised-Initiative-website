@@ -16,7 +16,7 @@ const HeroSection = () => {
       const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
       }, 5000); // Change slide every 5 seconds
-  
+   
       return () => clearInterval(interval);
     }, [currentIndex, images.length]);
   
@@ -42,7 +42,7 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-      </div>
+        </div>
     );
   };
   
