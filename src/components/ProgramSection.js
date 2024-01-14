@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import RI5 from "../assets/img/RI5.jpg";
 import RI22 from "../assets/img/RI22.PNG";
 import RI23 from "../assets/img/RI23.JPG";
@@ -10,13 +10,13 @@ import RI28 from "../assets/img/RI28.JPG";
 
 const programsData = [
     {
-        id: 4,
+        id: 7,
         title: 'Human Capital Development',
         image: RI27,
         link: '#',
       },
       {
-        id: 4,
+        id: 8,
         title: 'Wish for a Better Africa',
         image: RI28,
         link: '#',
@@ -34,7 +34,7 @@ const programsData = [
     link: '#',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Call for Membership',
     image: RI26,
     link: '#',
@@ -52,7 +52,7 @@ const programsData = [
     link: '',
   },
   {
-    id: 4,
+    id: 6,
     title: 'School of African Initiative Program',
     image: RI22,
     link: '#',
