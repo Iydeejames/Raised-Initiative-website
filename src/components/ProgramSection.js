@@ -14,6 +14,17 @@ const programsData = [
         title: 'Human Capital Development',
         image: RI27,
         link: '#',
+        content: `Call for Application
+        RAISED Initiative school of African leadership is an annual residency fellowship event organized by the RAISED Initiative Institute. The aim of the school of African leadership is to create a shaping hub for young and passionate Africans from diverse sectors who have keen interest in the reformation process of the African continent. We intend to equip our students with cutting edge knowledge on leadership tailored for the African continent for its advancement. 
+        The goal of the school is to become a go to hub which provides an African leadership solution for the continent by equipping its young and passionate citizens, who will go on to implement this knowledge in various sectors for the development of our great continent. 
+        Therefore the RAISED Initiative school of African leadership is calling for young Africans from the ages of 14-45 who are passionate about the reformation of Africa to apply to be admitted into the RAISED Initiative school of African leadership class of 2024 residency program  which will be taking place from 15th January to 8th April  2024. 
+        The program will teach young African with interest in leadership from different sectors  in the African continent, the leadership model developed by Africans for Africa which when deployed will put the African development process on the right track leading it to its glory days.
+        Call for Applications
+        RAISED Initiative school of African leadership is an annual residency fellowship event organized by the RAISED Initiative Institute. The aim of the school of African leadership is to create a shaping hub for young and passionate Africans from diverse sectors who have keen interest in the reformation process of the African continent. We intend to equip our students with cutting edge knowledge on leadership tailored for the African continent for its advancement. 
+        The goal of the school is to become a go to hub which provides an African leadership solution for the continent by equipping its young and passionate citizens, who will go on to implement this knowledge in various sectors for the development of our great continent. 
+        Therefore the RAISED Initiative school of African leadership is calling for young Africans from the ages of 14-45 who are passionate about the reformation of Africa to apply to be admitted into the RAISED Initiative school of African leadership class of 2024 residency program  which will be taking place from 15th January to 8th April  2024. 
+        The program will teach young African with interest in leadership from different sectors  in the African continent, the leadership model developed by Africans for Africa which when deployed will put the African development process on the right track leading it to its glory days. 
+        `,
       },
       {
         id: 8,
@@ -56,6 +67,17 @@ const programsData = [
     title: 'School of African Initiative Program',
     image: RI22,
     link: '#',
+    content: `Call for Application
+    RAISED Initiative school of African leadership is an annual residency fellowship event organized by the RAISED Initiative Institute. The aim of the school of African leadership is to create a shaping hub for young and passionate Africans from diverse sectors who have keen interest in the reformation process of the African continent. We intend to equip our students with cutting edge knowledge on leadership tailored for the African continent for its advancement. 
+    The goal of the school is to become a go to hub which provides an African leadership solution for the continent by equipping its young and passionate citizens, who will go on to implement this knowledge in various sectors for the development of our great continent. 
+    Therefore the RAISED Initiative school of African leadership is calling for young Africans from the ages of 14-45 who are passionate about the reformation of Africa to apply to be admitted into the RAISED Initiative school of African leadership class of 2024 residency program  which will be taking place from 15th January to 8th April  2024. 
+    The program will teach young African with interest in leadership from different sectors  in the African continent, the leadership model developed by Africans for Africa which when deployed will put the African development process on the right track leading it to its glory days.
+    Call for Applications
+    RAISED Initiative school of African leadership is an annual residency fellowship event organized by the RAISED Initiative Institute. The aim of the school of African leadership is to create a shaping hub for young and passionate Africans from diverse sectors who have keen interest in the reformation process of the African continent. We intend to equip our students with cutting edge knowledge on leadership tailored for the African continent for its advancement. 
+    The goal of the school is to become a go to hub which provides an African leadership solution for the continent by equipping its young and passionate citizens, who will go on to implement this knowledge in various sectors for the development of our great continent. 
+    Therefore the RAISED Initiative school of African leadership is calling for young Africans from the ages of 14-45 who are passionate about the reformation of Africa to apply to be admitted into the RAISED Initiative school of African leadership class of 2024 residency program  which will be taking place from 15th January to 8th April  2024. 
+    The program will teach young African with interest in leadership from different sectors  in the African continent, the leadership model developed by Africans for Africa which when deployed will put the African development process on the right track leading it to its glory days. 
+    `,
   },
 ];
 
