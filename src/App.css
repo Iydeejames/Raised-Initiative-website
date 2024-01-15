@@ -456,6 +456,51 @@ export default EventsSection;
   color: #fff;
   font-weight: bold;
 }
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff; /* White background with some transparency */
+  overflow: auto;
+  z-index: 999; /* Ensure the modal appears on top */
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  margin: 10% auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 10px;
+}
 /*End of Program Section */
 
 
