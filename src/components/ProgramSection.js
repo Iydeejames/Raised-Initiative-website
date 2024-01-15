@@ -35,7 +35,7 @@ const programsData = [
     title: 'Afrika Yetu',
     image: RI25,
     link: '#',
-    content: `Afrika Yetu is a weekly online educative program of RAISED Initiatives where the host invites speakers from different fields to impact knowledge to the members of RAISED Initiatives on subject areas that are beneficial to their growth as reformers.`,
+    content: ` <br> Afrika Yetu is a weekly online educative program of RAISED Initiatives where the host invites speakers from different fields to impact knowledge to the members of RAISED Initiatives on  <br> <br> subject areas that are beneficial to their growth as reformers.`,
   },
   {
     id: 5,
@@ -49,14 +49,14 @@ const programsData = [
     title: 'Pan African Talk',
     image: RI5,
     link: '',
-    content: `The Pan-African Talk is a RAISED Initiatives event that is dedicated to propagating the African ideas, in a wide choice of topics ranging from culture, developments, science, designs, technology, and management that is typically in the form of short and powerful talks, It is a community of African people telling their own stories that resonate in their culture, who believes in the power of ideas to change the African narratives and ultimately attitudes that are inspired by truth and great thinking.Its mainly a one day event and organized at the national level of RAISED Initiatives.`,
+    content: `  <br> The Pan-African Talk is a RAISED Initiatives event that is dedicated to propagating the African ideas, in a wide choice of topics ranging from culture, developments, science, designs, technology, and management that is typically in the form of short and powerful talks,  <br>  <br> It is a community of African people telling their own stories that resonate in their culture, who believes in the power of ideas to change the African narratives and ultimately attitudes that are inspired by truth and great thinking.Its mainly a one day event and organized at the national level of RAISED Initiatives.`,
   },
   {
     id: 2,
     title: 'Pan African Talk',
     image: RI23,
     link: '',
-    content: `The Pan-African Talk is a RAISED Initiatives event that is dedicated to propagating the African ideas, in a wide choice of topics ranging from culture, developments, science, designs, technology, and management that is typically in the form of short and powerful talks, It is a community of African people telling their own stories that resonate in their culture, who believes in the power of ideas to change the African narratives and ultimately attitudes that are inspired by truth and great thinking.Its mainly a one day event and organized at the national level of RAISED Initiatives.`,
+    content: `  <br> The Pan-African Talk is a RAISED Initiatives event that is dedicated to propagating the African ideas, in a wide choice of topics ranging from culture, developments, science, designs, technology, and management that is typically in the form of short and powerful talks,  <br> <br> It is a community of African people telling their own stories that resonate in their culture, who believes in the power of ideas to change the African narratives and ultimately attitudes that are inspired by truth and great thinking.Its mainly a one day event and organized at the national level of RAISED Initiatives.`,
   },
   {
     id: 6,
@@ -67,8 +67,11 @@ const programsData = [
     <br>
     <br>
     <b>RAISED Initiative</b> school of African leadership is an annual residency fellowship event organized by the RAISED Initiative Institute. The aim of the school of African leadership is to create a shaping hub for young and passionate Africans from diverse sectors who have keen interest in the reformation process of the African continent. We intend to equip our students with cutting edge knowledge on leadership tailored for the African continent for its advancement. 
+    <br>
     The goal of the school is to become a go to hub which provides an African leadership solution for the continent by equipping its young and passionate citizens, who will go on to implement this knowledge in various sectors for the development of our great continent. 
-    Therefore the RAISED Initiative school of African leadership is calling for young Africans from the ages of 14-45 who are passionate about the reformation of Africa to apply to be admitted into the RAISED Initiative school of African leadership class of 2024 residency program  which will be taking place from 15th January to 8th April  2024. 
+     <br>
+     <br>
+    Therefore the RAISED Initiative school of African leadership is calling for young Africans from the ages of 14-45 who are passionate about the reformation of Africa to apply to be admitted into the RAISED Initiative school of African leadership class of 2024 residency program  which will be taking place from 15th January to 8th April  2024.  <br>
     The program will teach young African with interest in leadership from different sectors  in the African continent, the leadership model developed by Africans for Africa which when deployed will put the African development process on the right track leading it to its glory days.
     <br>
     <br>
@@ -95,9 +98,9 @@ const programsData = [
 <br>
 <br>
 <b>Dates to Note</b>
-<li>Call for application opens — December 4th 2023. </li> 
-<li> Call for application closes — December 23rd 2023. </li> 
-<li> Notifications of accepted applications — December 28th 2023.</li> 
+<li>Call for application opens — January 24th 2024. </li> 
+<li> Call for application closes — February 3rd 2024. </li> 
+<li> Notifications of accepted applications — February 28th 2024.</li> 
 <br>
 <br>
 <b>Note:</b> Late submission will not be accepted   
