@@ -469,6 +469,22 @@ body.modal-open {
     height: 4rem;
   }
 
+  .Middle-content {
+    margin-top: 13rem;
+    text-align: start;
+    margin-left: 10%;
+  }
+  
+  .left-content, .right-content {
+    width: 60%; 
+    text-align: start;
+  }
+  
+  .left-content p, .left-content ul, .right-content ul {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+
 }
 
 @media (max-width: 1100px) {
