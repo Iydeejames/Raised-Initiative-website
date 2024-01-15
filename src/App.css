@@ -526,31 +526,79 @@ body.modal-open {
   }
   
 .Middle-content{
-  margin-top: -5rem;
+  margin-top: -3rem;
 }
 
 .right-content{
-  margin-top: -6rem;
+  margin-top: -3rem;
 }
 
 .leaders-section {
-  height: 100vh;
+  height: 70vh;
+}
+
+.leader-image {
+  width: 160px;
+  height: 160px;
+}
+
+.leader-card {
+  margin: 20px;
+  text-align: center;
+}
+
+.event-card {
+  width: 800px;
+  height: 230px;
+  margin-left: 150px;
+}
+
+
+.program-card {
+  top: -2rem;
+  width: 12rem;
+  height: 13rem;
 }
 }
 
-@media only screen and (max-width: 900px) {
+@media (max-width: 900px) {
   .navbar {
     height: 3rem;
   }
 
   .NavBar-link {
-    font-size: 0.99rem;
+    font-size: 1rem;
     margin-left: 1rem;
     margin-top: -3rem;
   }
 
   .logo-image {
     margin-right: 0 !important;
+    height: 2.9rem;
+  }
+
+  .leader-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .leader-card {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .event-card {
+    width: 750px;
+    height: 250px;
+    margin-left: 78px;
+  }
+
+  .program-card {
+    top: -2rem;
+    width: 13rem;
+    height: 16rem;
+    padding-bottom: 2rem;
+    margin:10px;
   }
 }
 
