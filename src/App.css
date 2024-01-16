@@ -551,13 +551,14 @@ body.modal-open {
   width: 800px;
   height: 230px;
   margin-left: 150px;
+  padding-bottom: 2rem;
 }
-
 
 .program-card {
   top: -2rem;
   width: 12rem;
   height: 13rem;
+  margin-bottom: 2rem;
 }
 }
 

@@ -10,7 +10,7 @@ import RI2 from "../assets/img/RI2.jpg";
   const leadersData = [
     { id: 1, name: "AFENA-ATTA RUDOLF - President", image: RI17 },
     { id: 1, name: "MAHAMADOU DIAWARA - National Director Mali", image: RI1 },
-    { id: 2, name: "UKEMEOBONG JAMES - National Director Nigeria", image: RI6 },
+    { id: 2, name: "UKEMEOBON James - National Director Nigeria", image: RI6 },
     { id: 3, name: "JEFF OTIS KUMUTEH - National Director Liberia", image: RI3 },
     { id: 4, name: "AFENA ATTA RAYMOND - National Director Ghana", image: RI2 },
     // Add more leaders as needed
