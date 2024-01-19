@@ -644,22 +644,64 @@ body.modal-open {
   }
 
   .event-card {
-    width: 750px;
+    width: 600px;
     height: 250px;
-    margin-left: 78px;
+    margin-left: 55px;
   }
 
-  .program-card {
-    top: -2rem;
-    width: 30rem;
-    height: 26rem;
-    padding-bottom: 2rem;
-    margin:2px;
+  .event-card h2,
+  .event-card p {
+    margin: 0;
+    line-height: 1.3rem;
   }
+
+  .program-section {
+    height: 100vh;
+    padding: 0 7rem;
+    margin-left: 110px;
+  }
+      .program-card {
+        margin-right: 30px;
+        top: -2rem;
+        width: 35rem;
+        height: 25rem;
+        padding-bottom: 2rem;
+      }
+      
+      .program-card img {
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+      }
+      
+      .program-card:hover {
+        transform: scale(1);
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 80%;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+       
+      }
+      
 
   @media only screen and (max-width: 500px) {
+    .hero-section{
+      height: 70vh;
+    }
+    
     .hero-content {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       top: 17rem;
     }
   
@@ -672,8 +714,10 @@ body.modal-open {
     }
     
     .banner-section {
-      font-size: 0.7rem;
-      margin-bottom: 2rem;
+      font-size: 0.8rem;
+      margin-bottom: 4rem;
+      margin-top: -2rem;
+      height: 80vh;
     }
     .Middle-content{
       margin-top: 1rem;
@@ -684,7 +728,7 @@ body.modal-open {
     }
   
     .leaders-section{
-      height: 100vh;
+      height: 97vh;
     }
     .leader-image {
       width: 110px;
@@ -696,18 +740,48 @@ body.modal-open {
       text-align: center;
     }
   
-    .event-card {
-      width: 500px;
-      height: 2300px;
-      margin-left: 78px;
+    .events-section{
+      height: 55vh;
     }
-  
+    .event-card {
+      top: -10rem;
+      font-size: 0.8rem;
+      width: 420px;
+      height: 295px;
+      margin-left:40px;
+    }
+
+    .event-card h2,
+.event-card p {
+  margin: 0;
+  line-height: 1.5rem;
+}
+
+.program-section {
+  height: 100vh;
+  padding: 0 2rem;
+}
     .program-card {
       top: -2rem;
-      width: 30rem;
-      height: 26rem;
+      width: 80rem;
+      height: 20rem;
       padding-bottom: 2rem;
-      margin:2px;
+      left: -2rem;
     }
+    
+    .program-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+    }
+
   }
 }
