@@ -346,24 +346,26 @@ span.navbar-text {
 /* Program Section */
 
 .program-section {
-  height: 90vh;
+  height: 120vh;
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 0 17rem; /* Adds space at the top and bottom of the section */
-
+  padding: 4rem 6rem; /* Adds space at the top and bottom of the section */
 }
 
 .program-card {
-  top: 2rem;
-  width: calc(24% - 0.2rem); /* Four cards on each line with space between them */
-  height: 14rem;
+  margin-top: 3rem;
+  width: 20%; /* Four cards on each line with space between them */
+  height: 18rem;
   overflow: hidden;
   position: relative;
-  border-radius: 10px;
-  margin: 0 0 -1rem 0; 
   transition: transform 0.9s ease;
+  box-shadow: 0.3rem 0.3rem 0.1rem #ffffff, 0.5rem 0.5rem 0.1rem
+  #a2e946, 0.7rem 0.7rem 0.1rem #297ce9, 0.9rem 0.9rem 0.1rem
+   #29a3e965, 1.1rem 1.1rem 0.1rem #463737;
+   transition: all 0.5s;
+   margin: 4rem 1rem;
 }
 
 
@@ -450,7 +452,7 @@ body.modal-open {
 /*End of Program Section */
 
 
-/* Responsive Styles */
+/* Responsive Styles 
 @media only screen and (max-width: 1300px) {
   .navbar-nav {
     justify-content: center;
@@ -699,16 +701,14 @@ body.modal-open {
     .hero-section{
       height: 70vh;
     }
-    
+
     .hero-content {
       font-size: 1.2rem;
       top: 17rem;
-
     }
   
     .hero-text h1 {
       font-size: 4rem;
-      left: 29rem;
     }
   
     .hero-text p {
@@ -786,4 +786,4 @@ body.modal-open {
     }
 
   }
-}
+} */
