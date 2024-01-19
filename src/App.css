@@ -703,10 +703,12 @@ body.modal-open {
     .hero-content {
       font-size: 1.2rem;
       top: 17rem;
+
     }
   
     .hero-text h1 {
       font-size: 4rem;
+      left: 29rem;
     }
   
     .hero-text p {
