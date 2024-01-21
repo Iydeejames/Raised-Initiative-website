@@ -7,6 +7,7 @@ import BannerSection from './components/Banner';
 import LeadersSection from './components/Leaders';
 import EventsSection from './components/EventsSection';
 import ProgramSection from './components/ProgramSection';
+import FooterSection from './components/FooterSection';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
        <LeadersSection/>
        <EventsSection/>
        <ProgramSection/>
+       <FooterSection/>
       {/* Add other components/content here */}
     </div>
  );
