@@ -437,13 +437,14 @@ body.modal-open {
 
 /* Footer Section */
 .footer-section {
-  background-color: black;
+  background-color: rgb(66, 161, 224);
   color: white;
   padding: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  height: 80vh;
 }
 
 .social-media {
@@ -453,20 +454,60 @@ body.modal-open {
 
 .social-media a {
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   text-decoration: none;
+  padding: 5px;
 }
 
-.contact-bar,
-.scroll-to-top,
-.support-bar {
+.contact-bar{
   background-color: white;
-  color: blue;
+  color: #000;
   padding: 10px;
   margin: 5px;
   cursor: pointer;
   text-align: center;
+  border-radius: 15px;
+  font-weight: 500;
+  width: 40rem;
 }
+
+.support-bar{
+  background-color: #aaa;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.contact-form textarea{
+  max-width: 100%;
+  max-height: 15rem;
+  min-height: 6rem;
+  min-width: 60%;
+}
+
+.contact-form input[type="submit"]{
+  background-color: #0da5d3;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover{
+  background-color: #087285;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 1.5rem;
+    background-color: #444;
+    color: #eee;
+    border: none;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+}
+
 
 .payment-methods {
   background-color: lightgrey;
@@ -481,6 +522,8 @@ body.modal-open {
 .payment-methods input {
   margin: 5px 0;
 }
+
+
 /* End of Footer Section */
 
 /* Responsive Styles 

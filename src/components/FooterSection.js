@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook, FaLinkedin, FaArrowUp, FaDonate } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook, FaLinkedin, FaArrowUp, FaMobileAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -38,7 +38,40 @@ const Footer = () => {
       </div>
 
       <div className="contact-bar">
-        <p>Contact Us</p>
+        <h1>Contact</h1>
+        <div className="section-heading-line"></div>
+        <div className="contact-wrapper">
+          <div className="contact-details">
+            <div className="phone">
+              <FaMobileAlt />
+              <h3>Phone</h3>
+              <p>+234 905 0821 027</p>
+              <p>+234 708 4992 218</p>
+            </div>
+            <div className="address">
+            < FaMapMarkerAlt />
+              <h3>Address</h3>
+              <p>Old Itu Road, Nigeria</p>
+              <p>Lansing, Michigan</p>
+            </div>
+            <div className="email">
+              <FaEnvelope />
+              <h3>Email</h3>
+              <p>iydeejaymes@gmail.com</p>
+              <p>Support@gmail.com</p>
+            </div>
+          </div>
+          <div className="support-bar" onClick={handleSupportClick}>
+        <h3>Support</h3>
+      </div>
+          <h1>Get in Touch</h1>
+          <form className="contact-form">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+        </div>
       </div>
 
       <div className="scroll-to-top">
@@ -47,9 +80,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="support-bar" onClick={handleSupportClick}>
-        <p>Support</p>
-      </div>
+
 
       {showPayment && (
         <div className="payment-methods">
