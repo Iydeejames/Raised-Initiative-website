@@ -19,68 +19,37 @@ const Footer = () => {
 
   return (
     <footer className="footer-section">
-      <div className="social-media">
-        <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
-          <FaWhatsapp />
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-          <FaInstagram />
-        </a>
-        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-          <FaTwitter />
-        </a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-          <FaFacebook />
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin />
-        </a>
-      </div>
-
-      <div className="contact-bar">
-        <h1>Contact</h1>
+    <div className="contact-bar">
+        <h1>Contact Us</h1>
         <div className="section-heading-line"></div>
         <div className="contact-wrapper">
           <div className="contact-details">
             <div className="phone">
               <FaMobileAlt />
               <h3>Phone</h3>
-              <p>+234 905 0821 027</p>
-              <p>+234 708 4992 218</p>
+              <p>+000 000 000 0000</p>
+              <p>+000 000 000 0000</p>
             </div>
             <div className="address">
             < FaMapMarkerAlt />
               <h3>Address</h3>
-              <p>Old Itu Road, Nigeria</p>
-              <p>Lansing, Michigan</p>
+              <p>Ghana</p>
+              <p>Nigeria</p>
+              <p>Mali</p>
+              <p>Liberia</p>
             </div>
             <div className="email">
               <FaEnvelope />
               <h3>Email</h3>
-              <p>iydeejaymes@gmail.com</p>
-              <p>Support@gmail.com</p>
+              <p>info.raisedinitiatives@gmail.com 
+                <a href="mailto: info.raisedinitiatives@gmail.com ">Or Click Here</a></p>
             </div>
           </div>
           <div className="support-bar" onClick={handleSupportClick}>
         <h3>Support</h3>
       </div>
-          <h1>Get in Touch</h1>
-          <form className="contact-form">
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Your Email" />
-            <textarea placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" />
-          </form>
         </div>
       </div>
-
-      <div className="scroll-to-top">
-        <a href="#top">
-          <FaArrowUp />
-        </a>
-      </div>
-
-
 
       {showPayment && (
         <div className="payment-methods">
@@ -96,6 +65,23 @@ const Footer = () => {
           </div>
         </div>
       )}
+            <div className="social-media">
+        <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp />
+        </a>
+        <a href="https://www.instagram.com/raisedinitiatives?igshid=YTQwZjQ0Nml0OA==" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+        </a>
+        <a href="https://www.x.com/raisedinitiative?t=VlwTiilHy96dk_RPltc4yA&s=09" target="_blank" rel="noopener noreferrer">
+          <FaTwitter />
+        </a>
+        <a href="https://www.facebook.com/raisedinitiatives?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+          <FaFacebook />
+        </a>
+        <a href="https://www.linkedin.com/company/raisedinitiatives/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+      </div>
     </footer>
   );
 };

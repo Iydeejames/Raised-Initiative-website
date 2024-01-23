@@ -108,9 +108,9 @@ span.navbar-text {
 
 /* Hero Section */
 .hero-section {
-  position: relative;
+
   height: 100vh;
-  overflow: hidden;
+
 }
 
 .slideshow-container {
@@ -345,9 +345,9 @@ li {
   overflow: hidden;
   position: relative;
   transition: transform 0.9s ease;
-  box-shadow: 0.3rem 0.3rem 0.1rem #ffffff, 0.5rem 0.5rem 0.1rem
-  #28c4f3, 0.7rem 0.7rem 0.1rem #fd3e87, 0.9rem 0.9rem 0.1rem
-  #28c4f3, 1.1rem 1.1rem 0.1rem #212729;
+  box-shadow: 0.3rem 0.3rem 0.1rem #2127292c, 0.5rem 0.5rem 0.1rem
+  #2127292c, 0.7rem 0.7rem 0.1rem #2127292c, 0.9rem 0.9rem 0.1rem
+  #2127292c, 1.1rem 1.1rem 0.1rem #2127292c;
    transition: all 0.5s;
    margin: 4rem 1rem;
 }
@@ -444,68 +444,49 @@ body.modal-open {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height: 80vh;
+  height: 70vh;
 }
 
 .social-media {
   display: flex;
   gap: 10px;
+  margin-top: 10vh;
+  margin-left: 25%;
+  padding-right: 25%;
+  margin-top: 1rem;
 }
 
 .social-media a {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
-  padding: 5px;
+  padding: -2px;
 }
 
 .contact-bar{
   background-color: white;
   color: #000;
-  padding: 10px;
+  padding: 5px;
   margin: 5px;
   cursor: pointer;
   text-align: center;
-  border-radius: 15px;
+  border-radius: 50px;
   font-weight: 500;
-  width: 40rem;
+  width: 60rem;
+  margin-top: 1rem;
+  margin-right: -1rem;
+}
+.phone,
+.address,
+.email{ 
+  margin-bottom: 0.8rem;
 }
 
 .support-bar{
   background-color: #aaa;
   border-radius: 15px;
   margin: 1rem;
-  padding: 1rem;
-}
-
-.contact-form textarea{
-  max-width: 100%;
-  max-height: 15rem;
-  min-height: 6rem;
-  min-width: 60%;
-}
-
-.contact-form input[type="submit"]{
-  background-color: #0da5d3;
-  text-transform: uppercase;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.contact-form input[type="submit"]:hover{
-  background-color: #087285;
-}
-
-.contact-form input,
-.contact-form textarea{
-    padding: 1.5rem;
-    background-color: #444;
-    color: #eee;
-    border: none;
-    margin-bottom: 2rem;
-    font-size: 1.8rem;
-    font-weight: 300;
-    letter-spacing: 0.1rem;
+  padding: 0.4rem;
 }
 
 
@@ -526,7 +507,7 @@ body.modal-open {
 
 /* End of Footer Section */
 
-/* Responsive Styles 
+/* Responsive Styles */
 @media only screen and (max-width: 1300px) {
   .navbar-nav {
     justify-content: center;
@@ -544,35 +525,13 @@ body.modal-open {
     height: 4rem;
   }
 
-  .Middle-content {
-    margin-top: 13rem;
-    text-align: start;
-    margin-left: 10%;
-  }
-  
-  .left-content, .right-content {
-    width: 60%; 
-    text-align: start;
-  }
-  
-  .left-content p, .left-content ul, .right-content ul {
-    margin-top: 10px;
-    line-height: 1.5;
-  }
-
   .event-card {
     width: 1000px;
     height: 230px;
     margin-left: 160px;
   }
 
-  .program-card {
-    top: -2rem;
-    width: 18rem;
-    height: 11rem;
-  }
-
-}
+} 
 
 @media only screen and (max-width: 1100px) {
   .NavBar-link {
@@ -600,14 +559,6 @@ body.modal-open {
     display: flex;
     flex-direction: column;
   }
-  
-.Middle-content{
-  margin-top: -3rem;
-}
-
-.right-content{
-  margin-top: -3rem;
-}
 
 .leaders-section {
   height: 70vh;
@@ -630,8 +581,11 @@ body.modal-open {
   padding-bottom: 2rem;
 }
 
+.program-section{
+  height: 60vh;
+}
 .program-card {
-  top: -2rem;
+  top: -10rem;
   width: 12rem;
   height: 13rem;
   margin-bottom: 2rem;
@@ -664,27 +618,32 @@ body.modal-open {
     text-align: center;
   }
 
+  .events-section{
+    height: 50vh;
+  }
   .event-card {
     width: 750px;
     height: 250px;
     margin-left: 78px;
+    top: -9rem;
   }
 
-
-  .program-card {
-    top: -2rem;
-    width: 30rem;
-    height: 26rem;
-    padding-bottom: 2rem;
-    margin:2px;
+  .program-section{
+    height: 90vh;
   }
+
+  .contact-bar{
+ width: 30rem;
+  }
+
 } 
 
 @media only screen and (max-width: 700px) {
-  .hero-content {
+  .hero-content{
+    position: relative;
     font-size: 1.7rem;
     top: 19rem;
-  }
+   }
 
   .hero-text h1 {
     font-size: 5rem;
@@ -697,13 +656,6 @@ body.modal-open {
   .banner-section {
     font-size: 0.9rem;
     margin-bottom: 2rem;
-  }
-  .Middle-content{
-    margin-top: 2rem;
-  }
-  
-  .right-content{
-    margin-top: 2rem;
   }
 
   .leaders-section{
@@ -732,50 +684,13 @@ body.modal-open {
   }
 
   .program-section {
-    height: 100vh;
-    padding: 0 7rem;
-    margin-left: 110px;
+    height: 130vh;
   }
-      .program-card {
-        margin-right: 30px;
-        top: -2rem;
-        width: 35rem;
-        height: 25rem;
-        padding-bottom: 2rem;
-      }
-      
-      .program-card img {
-        width: 80%;
-        height: 80%;
-        object-fit: cover;
-      }
-      
-      .program-card:hover {
-        transform: scale(1);
-      }
 
-      .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 80%;
-        height: 80%;
-        background-color: #000;
-        color: #fff;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-       
       }
       
 
   @media only screen and (max-width: 500px) {
-    .hero-section{
-      height: 70vh;
-    }
-
     .hero-content {
       font-size: 1.2rem;
       top: 17rem;
@@ -792,17 +707,10 @@ body.modal-open {
     .banner-section {
       font-size: 0.8rem;
       margin-bottom: 4rem;
-      margin-top: -2rem;
-      height: 80vh;
+      margin-top: -3rem;
+      height: 60vh;
     }
-    .Middle-content{
-      margin-top: 1rem;
-    }
-    
-    .right-content{
-      margin-top: 1rem;
-    }
-  
+
     .leaders-section{
       height: 97vh;
     }
@@ -834,30 +742,88 @@ body.modal-open {
 }
 
 .program-section {
-  height: 100vh;
-  padding: 0 2rem;
+  height: 210vh;
 }
-    .program-card {
-      top: -2rem;
-      width: 80rem;
-      height: 20rem;
-      padding-bottom: 2rem;
-      left: -2rem;
+
+.program-card{
+  left: 15%;
+  margin-bottom: -2rem;
+}
+
+.footer-section{
+  height: 50vh;
+}
+.contact-bar{
+  width: 20rem;
+  margin-left: -3%;
+  font-size: 0.8rem;
+   }
+
+   .hero-content{
+    position: relative;
+   }
+} 
+
+  @media only screen and (max-width: 410px) {
+    .navbar {
+      height: 3rem;
     }
-    
-    .program-card img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 90%;
+  
+    .NavBar-link {
+      font-size: 1rem;
+      margin-left: -1rem;
+      margin-top: -3rem;
     }
 
+    .hero-section{
+      position: relative;
+      height: 75vh;
+    }
+
+    .hero-content{
+      padding: 1rem;
+    }
+
+    .hero-content h1{
+      font-size: 2.8rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .hero-text h5{
+      margin-left: 55%;
+    }
+
+    .banner-section{
+      margin-top: 2rem;
+    }
+
+    .events-section{
+      height: 58vh;
+    }
+    .event-card {
+      top: -10rem;
+      font-size: 0.8rem;
+      width: 380px;
+      height: 320px;
+      margin-left: 15px;
+    }
+
+    .event-card h2,
+.event-card p {
+  margin: 0;
+  line-height: 1.5rem;
+}
+.program-card{
+  left: 1%;
+  margin-bottom: -2rem;
+}
+
+.footer-section{
+  height: 50vh;
+}
+.contact-bar{
+  width: 20rem;
+  margin-left: -3%;
+  font-size: 0.8rem;
+   }
   }
-} */
