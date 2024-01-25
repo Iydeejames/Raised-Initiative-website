@@ -13,7 +13,7 @@ const Footer = () => {
   };
 
   const handlePaymentSubmit = () => {
-    // Add logic to handle the credit card payment
+    // Add logic later to handle the credit card payment
     alert("Credit card payment submitted!");
   };
 
