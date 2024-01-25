@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
-import gsap from "gsap";
 import RI17 from "../assets/img/RI17.JPG";
 import RI1 from "../assets/img/RI1.jpg";
 import RI6 from "../assets/img/RI6.JPG";
 import RI3 from "../assets/img/RI3.jpg";
 import RI2 from "../assets/img/RI2.jpg";
 
-  
   const leadersData = [
     { id: 1, name: "AFENA-ATTA RUDOLF - President", image: RI17 },
     { id: 1, name: "MAHAMADOU DIAWARA - National Director Mali", image: RI1 },
