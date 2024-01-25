@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook, FaLinkedin, FaArrowUp, FaMobileAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook, FaLinkedin, FaMobileAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 
 const Footer = () => {
