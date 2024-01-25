@@ -40,13 +40,16 @@ export const CustomNavbar = () => {
     </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="home">
                 <img src={''} alt="" />
               </a>
-              <a href="#">
+              <a href="mission">
                 <img src={''} alt="" />
               </a>
-              <a href="#">
+              <a href="leaders">
+                <img src={''} alt="" />
+              </a>
+              <a href="events">
                 <img src={''} alt="" />
               </a>
             </div>
