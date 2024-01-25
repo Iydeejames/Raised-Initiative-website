@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import RI17 from "../assets/img/RI17.JPG";
 import RI1 from "../assets/img/RI1.jpg";
 import RI6 from "../assets/img/RI6.JPG";
@@ -11,7 +11,6 @@ import RI2 from "../assets/img/RI2.jpg";
     { id: 2, name: "UKEMEOBONG James - National Director Nigeria", image: RI6 },
     { id: 3, name: "JEFF OTIS KUMUTEH - National Director Liberia", image: RI3 },
     { id: 4, name: "AFENA ATTA RAYMOND - National Director Ghana", image: RI2 },
-    // Add more leaders as needed
   ];
   
   const LeadersSection = () => {
