@@ -10,7 +10,7 @@ import RI28 from "../assets/img/RI28.JPG";
 
 const programsData = [
     {
-        id: 7,
+        id: 7, 
         title: 'Human Capital Development',
         image: RI27,
         link: '#',
