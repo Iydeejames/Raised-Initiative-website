@@ -14,7 +14,7 @@ const programsData = [
         title: 'Human Capital Development',
         image: RI27,
         link: '#',
-        content: `...Coming Soon`,
+        content: `...Coming Soon`, 
       },
       {
         id: 8,
