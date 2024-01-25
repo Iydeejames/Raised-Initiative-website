@@ -46,7 +46,7 @@ const programsData = [
   },
   {
     id: 1,
-    title: 'an African Talk',
+    title: 'Pan African Talk',
     image: RI5,
     link: '#',
     content: `  <br> The Pan-African Talk is a RAISED Initiatives event that is dedicated to propagating the African ideas, in a wide choice of topics ranging from culture, developments, science, designs, technology, and management that is typically in the form of short and powerful talks,  <br>  <br> It is a community of African people telling their own stories that resonate in their culture, who believes in the power of ideas to change the African narratives and ultimately attitudes that are inspired by truth and great thinking.Its mainly a one day event and organized at the national level of RAISED Initiatives.`,
@@ -111,6 +111,7 @@ Link for Registration : www.....
   }
 ]
   
+
 const ProgramSection = () => {
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedProgram, setSelectedProgram] = useState({});
@@ -120,55 +121,43 @@ const ProgramSection = () => {
     setModalVisible(true);
   };
 
-  const closeModal = () => {
-    setSelectedProgram({});
-    setModalVisible(false);
-  };
-
   return (
     <div className="program-section">
       {programsData.map((program) => (
         <div key={program.id} className="program-card">
           <img src={program.image} alt={program.title} />
           <div className="overlay">
-            <a
-              href="#"
-              onClick={() => openModal(program)}
-              style={{ cursor: 'pointer' }}
-            >
-              {program.title}
-            </a>
+            <button onClick={() => openModal(program)}>{program.title}</button>
           </div>
         </div>
       ))}
 
-
-{modalVisible && (
-  <div className="modal">
-    <div className="modal-content">
-      <span className="close" onClick={() => setModalVisible(false)}>
-        &times;
-      </span>
-      <div>
-        <h2>{selectedProgram.title}</h2>
-        {Array.isArray(selectedProgram.content) ? (
-          selectedProgram.content.map((element, index) => (
-            <div
-              key={index}
-              dangerouslySetInnerHTML={{ __html: element }}
-            ></div>
-          ))
-        ) : (
-          <p dangerouslySetInnerHTML={{ __html: selectedProgram.content }}></p>
-        )}
-        <p></p>
-        <div className="arrow" onClick={() => setModalVisible(false)}>
-          &larr;
+      {modalVisible && (
+        <div className="modal">
+          <div className="modal-content">
+            <span className="close" onClick={() => setModalVisible(false)}>
+              &times;
+            </span>
+            <div>
+              <h2>{selectedProgram.title}</h2>
+              {Array.isArray(selectedProgram.content) ? (
+                selectedProgram.content.map((element, index) => (
+                  <div
+                    key={index}
+                    dangerouslySetInnerHTML={{ __html: element }}
+                  ></div>
+                ))
+              ) : (
+                <p dangerouslySetInnerHTML={{ __html: selectedProgram.content }}></p>
+              )}
+              <p></p>
+              <div className="arrow" onClick={() => setModalVisible(false)}>
+                &larr;
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-)}
+      )}
     </div>
   );
 };
