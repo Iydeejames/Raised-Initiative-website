@@ -764,7 +764,7 @@ body.modal-open {
    }
 } 
 
-  @media only screen and (max-width: 410px) {
+  @media only screen and (max-width: 414px) {
     .navbar {
       height: 3rem;
     }
