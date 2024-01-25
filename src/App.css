@@ -777,7 +777,7 @@ body.modal-open {
 
     .hero-section{
       position: relative;
-      height: 75vh;
+      height: 85vh;
     }
 
     .hero-content{
@@ -795,6 +795,7 @@ body.modal-open {
 
     .banner-section{
       margin-top: 2rem;
+      height: 75vh;
     }
 
     .events-section{
