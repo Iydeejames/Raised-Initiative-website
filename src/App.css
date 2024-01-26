@@ -7,13 +7,13 @@
   font-family: "work Sans", sans-serif;
 }
 
-.html {
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
   font-size: 60%;
 }
 
-.body{
+body{
   font-weight: 400;
   overflow: hidden;
   position: relative;
