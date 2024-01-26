@@ -42,7 +42,7 @@ const Footer = () => {
               <FaEnvelope />
               <h3>Email</h3>
               <p>info.raisedinitiatives@gmail.com 
-                <a href="mailto: info.raisedinitiatives@gmail.com ">Or Click Here</a></p>
+              </p>
             </div>
           </div>
           <div className="support-bar" onClick={handleSupportClick}>
