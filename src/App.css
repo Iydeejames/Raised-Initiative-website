@@ -773,6 +773,11 @@ body.modal-open {
     .nav-links.active {
       display: flex;
     }
+
+    .logo-image{
+      height: 3.28rem;
+      margin-left: -1.29rem;
+    }
   
     .menu-icon {
       display: flex;
@@ -798,7 +803,11 @@ body.modal-open {
 
     .banner-section{
       margin-top: 2rem;
-      height: 75vh;
+      height: 70vh;
+    }
+
+    .leaders-section{
+      height: 110vh;
     }
 
     .events-section{
@@ -820,6 +829,10 @@ body.modal-open {
 .program-card{
   left: 1%;
   margin-bottom: -2rem;
+}
+
+.program-section{
+  height: 250vh;
 }
 
 .footer-section{
