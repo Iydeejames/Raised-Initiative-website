@@ -27,6 +27,7 @@ export const CustomNavbar = () => {
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
 
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
       <Nav.Link href="#home" className={activeLink === "home" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("home")}>Home</Nav.Link>
