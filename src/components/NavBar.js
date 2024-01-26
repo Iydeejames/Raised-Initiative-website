@@ -1,55 +1,47 @@
-import React, { useEffect, useState } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
 import RI7 from "../assets/img/RI7.jpg";
 
-export const CustomNavbar = () => {
-  const [activeLink, setActiveLink] = useState("home");
+
+const CustomNavbar = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => {
+    const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
 
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
+  const toggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
   };
 
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
-      <Container>
-        <Navbar.Brand href="#">
-          <img src={RI7} alt="Surpassing Mediocrity" className="logo-image" />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            {["home", "mission", "leaders", "events"].map((link) => (
-              <Nav.Link
-                key={link}
-                href={`#${link}`}
-                className={activeLink === link ? "active NavBar-link" : "NavBar-link"}
-                onClick={() => onUpdateActiveLink(link)}
-              >
-                {link.charAt(0).toUpperCase() + link.slice(1)}
-              </Nav.Link>
-            ))}
-          </Nav>
-          <span className="navbar-text">
-            <div className="social-icon">
-              {["home", "mission", "leaders", "events"].map((link) => (
-                <a key={link} href={`#${link}`}>
-                  <img src={''} alt="" />
-                </a>
-              ))}
-            </div>
-          </span>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
+      <div className="container">
+        <div className="logo-container">
+          <img src={RI7} alt="Logo" className="logo-image" />
+        </div>
+        <div className={`nav-links ${isMenuOpen ? "active" : ""}`}>
+          <a href="#home">Home</a>
+          <a href="#leaders">Leaders</a>
+          <a href="#events">Events</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+        <div className="menu-icon" onClick={toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
   );
 };
+
+export default CustomNavbar;

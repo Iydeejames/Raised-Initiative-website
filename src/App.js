@@ -1,6 +1,6 @@
 import React from 'react';
 import'./App.css';
-import { CustomNavbar } from './components/NavBar'; 
+import  CustomNavbar  from './components/NavBar'; 
 import HeroSection from './components/Hero';
 import BannerSection from './components/Banner';
 import LeadersSection from './components/Leaders';

@@ -28,76 +28,77 @@ h1, h2, h3, h4, h5, h6{
   line-height: normal;
 }
 /* End of Default CSS */
-/* Navbar Section */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
 .navbar {
-  color: #fff;
   background-color: rgb(66, 161, 224);
   height: 4rem;
-}
-
-.NavBar-link {
-  font-weight: bold;
-  text-decoration: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #fff;
-  font-size: 1.3rem;
-  margin-left: 3rem;
-  margin-top: -3rem;
-}
-
-.navbar-nav .nav-link {
-  outline: none;
-}
-
-.navbar-nav {
   display: flex;
-  justify-content: flex-end;
-}
-
-nav.navbar {
-  padding: 8px 0;
+  align-items: center;
+  justify-content: space-between;
   position: fixed;
-  width: 100%;
   top: 0;
-  z-index: 9999;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
 }
 
-nav.navbar.scrolled {
+.navbar.scrolled {
   background-color: rgb(66, 161, 224);
 }
 
-a.navbar-brand {
-  width: 9%;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  margin-right: 1rem;
 }
 
 .logo-image {
-  margin-top: -0.4rem;
-  width: 90px;
-  height: 3.9rem;
-  margin-right: 90% !important;
+  width: 60px;
+  height: auto;
 }
 
-nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-  opacity: 1;
-}
-
-span.navbar-text {
+.nav-links {
   display: flex;
-  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.social-icon {
-  display: flex;
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  transition: color 0.3s ease;
 }
 
-.NavBar-link:hover {
-  color: #000;
-  transition: 0.8s;
-  transform: scale(1.1);
+.nav-links a:hover {
+  color: #ccc;
 }
-/* End of Navbar Section */
 
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  background-color: #fff;
+  height: 3px;
+  width: 25px;
+  margin: 6px 0;
+  transition: 0.4s;
+}
 /* Hero Section */
 .hero-section {
 
@@ -757,14 +758,24 @@ body.modal-open {
 } 
 
   @media only screen and (max-width: 414px) {
-    .navbar {
-      height: 3rem;
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      background-color: rgb(66, 161, 224);
+      top: 3rem;
+      left: 0;
+      right: 0;
+      z-index: 999;
     }
   
-    .NavBar-link {
-      font-size: 1rem;
-      margin-left: -1rem;
-      margin-top: -3rem;
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: flex;
     }
 
     .hero-section{
