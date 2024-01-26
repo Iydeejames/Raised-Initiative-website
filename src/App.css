@@ -44,7 +44,7 @@ body {
   left: 0;
   right: 0;
   z-index: 1000;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.4s ease;
 }
 
 .navbar.scrolled {
@@ -328,7 +328,7 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 4rem 6rem; /* Adds space at the top and bottom of the section */
+  padding: 4rem 6rem; 
 }
 
 .program-card {
@@ -785,7 +785,7 @@ body.modal-open {
 
     .hero-section{
       position: relative;
-      height: 85vh;
+      height: 100vh;
     }
 
     .hero-content{
@@ -826,17 +826,21 @@ body.modal-open {
   margin: 0;
   line-height: 1.5rem;
 }
+
 .program-card{
   left: 1%;
   margin-bottom: -2rem;
+  width: 35rem;
+  margin: 2rem -1rem;
+  height: 15rem;
 }
 
 .program-section{
-  height: 250vh;
+  height: 270vh;
 }
 
 .footer-section{
-  height: 50vh;
+  height: 60vh;
 }
 .contact-bar{
   width: 20rem;
