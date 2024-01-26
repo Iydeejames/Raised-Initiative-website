@@ -10,7 +10,7 @@
 .html {
   scroll-behavior: smooth;
   scroll-padding-top: 75px;
-  font-size: 62.5%;
+  font-size: 60%;
 }
 
 .body{
@@ -28,8 +28,7 @@ h1, h2, h3, h4, h5, h6{
   line-height: normal;
 }
 /* End of Default CSS */
-
-/* NavBar Section */
+/* Navbar Section */
 .navbar {
   color: #fff;
   background-color: rgb(66, 161, 224);
@@ -51,7 +50,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar-nav {
-  display: flex; 
+  display: flex;
   justify-content: flex-end;
 }
 
@@ -67,7 +66,7 @@ nav.navbar.scrolled {
   background-color: rgb(66, 161, 224);
 }
 
- a.Navbar-brand {
+a.navbar-brand {
   width: 9%;
 }
 
@@ -86,7 +85,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 span.navbar-text {
   display: flex;
   align-items: center;
-} 
+}
 
 .social-icon {
   display: flex;
@@ -97,7 +96,7 @@ span.navbar-text {
   transition: 0.8s;
   transform: scale(1.1);
 }
-/* End of NavBar Section */
+/* End of Navbar Section */
 
 /* Hero Section */
 .hero-section {

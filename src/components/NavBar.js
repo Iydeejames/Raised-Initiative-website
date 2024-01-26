@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navbar, Container, Nav } from "react-bootstrap"; // using react-bootstrap
+import { Navbar, Container, Nav } from "react-bootstrap";
 import RI7 from "../assets/img/RI7.jpg";
 
 export const CustomNavbar = () => {
@@ -8,11 +8,7 @@ export const CustomNavbar = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", onScroll);
@@ -26,38 +22,34 @@ export const CustomNavbar = () => {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-
+        <Navbar.Brand href="#">
+          <img src={RI7} alt="Surpassing Mediocrity" className="logo-image" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
-      <Nav.Link href="#home" className={activeLink === "home" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("home")}>Home</Nav.Link>
-      <Nav.Link href="#mission" className={activeLink === "mission" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("mission")}>Mission</Nav.Link>
-      <Nav.Link href="#leaders" className={activeLink === "leaders" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("leaders")}>Leaders</Nav.Link>
-      <Nav.Link href="#events" className={activeLink === "events" ? "active NavBar-link": "NavBar-link"} onClick={ () => onUpdateActiveLink ("events")}>Events</Nav.Link>
-  
-    </Nav>
+          <Nav className="me-auto">
+            {["home", "mission", "leaders", "events"].map((link) => (
+              <Nav.Link
+                key={link}
+                href={`#${link}`}
+                className={activeLink === link ? "active NavBar-link" : "NavBar-link"}
+                onClick={() => onUpdateActiveLink(link)}
+              >
+                {link.charAt(0).toUpperCase() + link.slice(1)}
+              </Nav.Link>
+            ))}
+          </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="home">
-                <img src={''} alt="" />
-              </a>
-              <a href="mission">
-                <img src={''} alt="" />
-              </a>
-              <a href="leaders">
-                <img src={''} alt="" />
-              </a>
-              <a href="events">
-                <img src={''} alt="" />
-              </a>
+              {["home", "mission", "leaders", "events"].map((link) => (
+                <a key={link} href={`#${link}`}>
+                  <img src={''} alt="" />
+                </a>
+              ))}
             </div>
-
           </span>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 };
-
-
-
