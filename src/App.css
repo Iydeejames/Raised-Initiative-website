@@ -848,13 +848,13 @@ body.modal-open {
   }
 
   .events-section{
-    height: 55vh;
+    height: 60vh;
   }
   .event-card {
     top: -10rem;
     font-size: 0.8rem;
     width: 380px;
-    height: 320px;
+    height: 330px;
     margin-left: 15px;
   }
 
