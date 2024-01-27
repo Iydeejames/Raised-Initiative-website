@@ -813,7 +813,7 @@ body.modal-open {
 
   .logo-image{
     height: 3.28rem;
-    margin-left: -1.29rem;
+    margin-left: -1.3rem;
   }
 
   .menu-icon {
@@ -848,7 +848,7 @@ body.modal-open {
   }
 
   .events-section{
-    height: 58vh;
+    height: 55vh;
   }
   .event-card {
     top: -10rem;
@@ -869,7 +869,7 @@ left: 1%;
 margin-bottom: -2rem;
 width: 35rem;
 margin: 2rem -1rem;
-height: 15rem;
+height: 17rem;
 }
 
 .program-section{
@@ -884,4 +884,33 @@ width: 20rem;
 margin-left: -3%;
 font-size: 0.8rem;
  }
+}
+
+@media only screen and (max-width: 414px) {
+  .hero-content h1{
+    font-size: 2.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .leaders-section{
+    height: 120vh;
+  }
+
+  .events-section{
+    height: 80vh;
+  }
+  .event-card {
+    top: -15rem;
+    font-size: 0.8rem;
+    width: 320px;
+    height: 340px;
+    margin-left: 20px;
+    margin-bottom: 7rem;
+  }
+
+  .event-card h2,
+.event-card p {
+margin: 0;
+line-height: 1.5rem;
+}
 }
