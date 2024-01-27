@@ -60,7 +60,7 @@ body {
 .logo-image {
   width: 95px;
   height: 4.3rem;
-  margin-left: -4.6rem;
+  margin-left: -5rem;
 }
 
 .nav-links {
@@ -854,7 +854,7 @@ body.modal-open {
     top: -10rem;
     font-size: 0.8rem;
     width: 380px;
-    height: 330px;
+    height: 320px;
     margin-left: 15px;
   }
 
