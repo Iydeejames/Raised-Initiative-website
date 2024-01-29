@@ -498,7 +498,7 @@ body.modal-open {
 /* End of Footer Section */
 
 /* Responsive Styles */
-@media only screen and (max-width: 1300px) {
+@media (max-width: 1300px) {
   .navbar-nav {
     justify-content: center;
   }
@@ -523,7 +523,7 @@ body.modal-open {
 
 } 
 
-@media only screen and (max-width: 1100px) {
+@media (max-width: 1100px) {
   .NavBar-link {
     font-size: 1.2rem;
   }
@@ -588,7 +588,7 @@ body.modal-open {
 }
 }
 
-@media only screen and (max-width: 900px) {
+@media  (max-width: 900px) {
   .navbar {
     height: 3rem;
   }
@@ -634,7 +634,7 @@ body.modal-open {
 
 } 
 
-@media only screen and (max-width: 700px) {
+@media (max-width: 700px) {
   .logo-image{
     margin-left: -2.6rem;
   }
@@ -686,11 +686,14 @@ body.modal-open {
   .program-section {
     height: 130vh;
   }
+      }
+
+      @media only screen and (max-width: 600px) {
 
       }
       
 
-  @media only screen and (max-width: 500px) {
+  @media  (max-width: 500px) {
     .nav-links {
       display: none;
       flex-direction: column;
@@ -794,7 +797,11 @@ body.modal-open {
    }
 } 
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 450px) {
+
+}
+
+@media (max-width: 414px) {
   .nav-links {
     display: none;
     flex-direction: column;
@@ -886,7 +893,7 @@ font-size: 0.8rem;
  }
 }
 
-@media only screen and (max-width: 375px) {
+@media  (max-width: 375px) {
   .hero-content h1{
     font-size: 2.6rem;
     margin-bottom: 0.6rem;
