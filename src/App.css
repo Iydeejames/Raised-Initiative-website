@@ -512,7 +512,7 @@ body.modal-open {
   .logo-image {
     margin-right: 0 !important;
     width: 60px;
-    height: 4rem;
+    height: 4.2rem;
   }
 
   .event-card {
@@ -588,6 +588,16 @@ body.modal-open {
 }
 }
 
+@media only screen and (max-width: 1000px) {
+  .event-card{
+    margin-left: 100px;
+  }
+
+  .program-section{
+    height: 110vh;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .navbar {
     height: 3rem;
@@ -631,8 +641,9 @@ body.modal-open {
   .contact-bar{
  width: 30rem;
   }
-
 } 
+
+
 
 @media only screen and (max-width: 700px) {
   .logo-image{
