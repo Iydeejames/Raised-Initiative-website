@@ -331,7 +331,7 @@ li {
 
 .program-card {
   top: -3rem;
-  width: 20%; /* Four cards on each line with space between them */
+  width: 15rem; 
   height: 18rem;
   overflow: hidden;
   position: relative;
@@ -340,9 +340,8 @@ li {
   #2127292c, 0.7rem 0.7rem 0.1rem #2127292c, 0.9rem 0.9rem 0.1rem
   #2127292c, 1.1rem 1.1rem 0.1rem #2127292c;
    transition: all 0.5s;
-   margin: 4rem 1rem;
+   margin: 4rem 1rem;  
 }
-
 
 .program-card img {
   width: 100%;
