@@ -251,7 +251,7 @@ li {
 /* EventsSection */
 .event-card {
   width: auto;
-  height: 330px;
+  height: 440px;
   background-color: rgb(66, 161, 224);
   border-radius: 16px;
   display: flex;
@@ -259,16 +259,15 @@ li {
   align-items: center;
   position: absolute;
   padding: 2.5rem;
+  top: 2rem;
   opacity: 0;
-
-  top: 5rem;
   transition: opacity 1.2s ease-in-out;
 }
 
 .events-section {
   justify-content: space-between;
   align-items: center;
-  height: 60vh;
+  height: 80vh;
   overflow: hidden;
   padding: 70px;
 }
