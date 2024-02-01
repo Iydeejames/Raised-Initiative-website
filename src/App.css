@@ -177,12 +177,12 @@ body {
   display: flex;
   justify-content: center; 
   text-align: center;
-  height: 90vh; 
+  height: 100vh; 
 }
 
 .content {
   margin: 2rem; 
-  margin-top: 2.5rem;
+  margin-top: 6rem;
 }
 
 h2 {
@@ -201,7 +201,7 @@ li {
 /* LeadersSection */
 .leaders-section {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-color: rgba(66, 161, 224, 0.096);
  /* clip-path: polygon(
     50% 0%,
@@ -250,7 +250,7 @@ li {
 
 /* EventsSection */
 .event-card {
-  width: 1100px;
+  width: auto;
   height: 230px;
   background-color: rgb(66, 161, 224);
   border-radius: 16px;
@@ -260,7 +260,7 @@ li {
   position: absolute;
   padding: 2.5rem;
   opacity: 0;
-  margin-left: 190px;
+
   top: 9rem;
   transition: opacity 1.2s ease-in-out;
 }
@@ -270,6 +270,7 @@ li {
   align-items: center;
   height: 60vh;
   overflow: hidden;
+  padding: 50px;
 }
 
 .events-content {
@@ -319,7 +320,7 @@ li {
 /* Program Section */
 
 .program-section {
-  height: 130vh;
+  height: auto;
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
@@ -495,7 +496,7 @@ body.modal-open {
 
 /* End of Footer Section */
 
-/* Responsive Styles 
+/* Responsive Styles */
 @media only screen and (max-width: 1300px) {
   .navbar-nav {
     justify-content: center;
@@ -513,14 +514,12 @@ body.modal-open {
     height: 4.2rem;
   }
 
-  .event-card {
-    width: 1000px;
-    height: 230px;
-    margin-left: 160px;
+
+  .program-section{
+    height: auto;
   }
-
 } 
-
+/*
 @media only screen and (max-width: 1100px) {
   .NavBar-link {
     font-size: 1.2rem;
