@@ -318,18 +318,17 @@ li {
 
 /* Program Section */
 
+/* Program Section */
 .program-section {
-  height: 130vh;
   background-color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 4rem 6rem; 
+  padding: 4rem 2rem; /* Adjusted padding for smaller screens */
 }
 
 .program-card {
-  top: -3rem;
-  width: 18rem; 
+  width: calc(33.33% - 2rem); /* Adjusted width for smaller screens */
   height: 18rem;
   overflow: hidden;
   position: relative;
@@ -337,10 +336,29 @@ li {
   box-shadow: 0.3rem 0.3rem 0.1rem #2127292c, 0.5rem 0.5rem 0.1rem
   #2127292c, 0.7rem 0.7rem 0.1rem #2127292c, 0.9rem 0.9rem 0.1rem
   #2127292c, 1.1rem 1.1rem 0.1rem #2127292c;
-   transition: all 0.5s;
-   margin: 4rem 1.1rem;  
+  margin: 2rem 1rem; /* Adjusted margin for smaller screens */
 }
 
+/* Responsive styles for larger screens */
+@media (min-width: 768px) {
+  .program-section {
+    padding: 4rem 4rem; /* Adjusted padding for larger screens */
+  }
+
+  .program-card {
+    width: calc(25% - 2rem); /* Adjusted width for larger screens */
+    height: 20rem; /* Adjusted height for larger screens */
+  }
+}
+
+/* Responsive styles for even larger screens */
+@media (min-width: 1200px) {
+  .program-card {
+    width: calc(20% - 2rem); /* Further adjusted width for even larger screens */
+  }
+}
+
+/* Shared styles for both program-section and program-card */
 .program-card img {
   width: 100%;
   height: 100%;
