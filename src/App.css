@@ -251,7 +251,7 @@ li {
 /* EventsSection */
 .event-card {
   width: auto;
-  height: 230px;
+  height: 330px;
   background-color: rgb(66, 161, 224);
   border-radius: 16px;
   display: flex;
@@ -261,7 +261,7 @@ li {
   padding: 2.5rem;
   opacity: 0;
 
-  top: 9rem;
+  top: 5rem;
   transition: opacity 1.2s ease-in-out;
 }
 
@@ -270,7 +270,7 @@ li {
   align-items: center;
   height: 60vh;
   overflow: hidden;
-  padding: 50px;
+  padding: 70px;
 }
 
 .events-content {
