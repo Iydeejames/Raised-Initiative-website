@@ -60,7 +60,7 @@ const programsData = [
   },
   {
     id: 6,
-    title: 'Schoo of African Initiative Program',
+    title: 'School of African Initiative Program',
     image: RI22,
     link: '#',
     content: `<b>CALL FOR APPLICATION</b>
