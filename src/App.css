@@ -604,13 +604,46 @@ body.modal-open {
   }
   }
 
-      @media only screen and (max-width: 572px) {
-        html{
-         font-size:  75%;
-        }
+  @media only screen and (max-width: 615px) {
+    
+    .program-card{
+      left: 21%;
+      margin-bottom: -2rem;
+      width: 22rem;
+      margin: 2rem -1rem;
+      height: 20rem;
+      }
+  }
 
-        .program-card{
-          margin-left: 10rem;
+      @media only screen and (max-width: 590px) {
+        .hero-section{
+          position: relative;
+          height: 100vh;
+        }
+      
+        .hero-content{
+          padding: 1rem;
+        }
+      
+        .hero-content h1{
+          font-size: 5.5rem;
+          margin-bottom: 0.3rem;
+        }
+      
+        .hero-text h5{
+          margin-left: 65%;
+        }
+        
+       .hero-content{
+        position: relative;
+       }
+
+       .program-card{
+        left: 21%;
+        margin-bottom: -2rem;
+        width: 22rem;
+        margin: 2rem -1rem;
+        height: 20rem;
         }
       }
       
@@ -665,6 +698,17 @@ body.modal-open {
     margin-left: 7rem;
    }
 } 
+
+@media only screen and  (max-width: 483px) {
+  .hero-content h1{
+    font-size: 4.4rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .hero-text h5{
+    margin-left: 55%;
+  }
+}
 
 @media only screen and  (max-width: 414px) {
   .nav-links {
