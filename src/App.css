@@ -150,7 +150,7 @@ body {
 
 
 .hero-text h1 {
-  font-size: 6.5rem;
+  font-size: 6rem;
   margin-top: 5rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-bottom: -1px;
@@ -170,19 +170,20 @@ body {
   width: max-content;
   margin-top: -1rem;
 }
-/* Hero Section */
+/* End of Hero Section */
 
 
 .banner-section {
   display: flex;
   justify-content: center; 
   text-align: center;
-  height: 110vh; 
+  height: auto; 
 }
 
 .content {
   margin: 2rem; 
   margin-top: 2rem;
+
 }
 
 h2 {
@@ -195,7 +196,7 @@ ul {
 }
 
 li {
-  margin-bottom: 0.5rem; 
+  margin-bottom: 1.2rem; 
 }
 
 /* LeadersSection */
@@ -269,7 +270,7 @@ li {
   align-items: center;
   height: 80vh;
   overflow: hidden;
-  padding: 70px;
+  padding: 10px;
 }
 
 .events-content {
