@@ -16,7 +16,7 @@ import React, { useEffect, useState } from "react";
   },
   {
     title: "Pan African Talk",
-    description: "The Pan-African Talk is a RAISED Initiatives event that is dedicated to propagating the African ideas, in a wide choice of topics ranging from culture, developments, science, designs, technology, and management that is typically in the form of short and powerful talks, It is a community of African people telling their own stories that resonate in their culture, who believes in the power of ideas to change the African narratives and ultimately attitudes that are inspired by truth and great thinking.Its mainly a one day event and organized at the national level of RAISED Initiatives."
+    description: "The Pan-African Talk is a RAISED Initiatives event that is dedicated to propagating the African ideas, in a wide choice of topics ranging from culture, developments, science, designs, technology, and management that is typically in the form of short and powerful talks, It is a community of African people telling their own stories that resonate in their culture.Its mainly a one day event and organized at the national level of RAISED Initiatives."
   },
   {
     title: "AU Agenda 2063 and UN SDGs Awareness Program",
