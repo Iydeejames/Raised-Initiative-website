@@ -559,10 +559,13 @@ body.modal-open {
     font-size: 1.2rem;
   }
 }
-/*
+
 @media only screen and (max-width: 900px) {
+  html{
+    font-size: 80%;
+  }
   .navbar {
-    height: 3rem;
+    height: 4rem;
   }
 
   .NavBar-link {
@@ -573,38 +576,12 @@ body.modal-open {
 
   .logo-image {
     margin-right: 0;
-    height: 3.5rem;
-  }
-
-  .leader-image {
-    width: 140px;
-    height: 140px;
-  }
-
-  .leader-card {
-    margin: 10px;
-    text-align: center;
-  }
-
-  .events-section{
-    height: 50vh;
-  }
-  .event-card {
-    width: 750px;
-    height: 250px;
-    margin-left: 78px;
-    top: -9rem;
-  }
-
-  .program-section{
-    height: 100vh;
-  }
-
-  .contact-bar{
- width: 30rem;
+    height: 4.2rem;
+    width: 6.2rem;
+    margin-left: -3rem;
   }
 } 
-
+/*
 @media only screen and (max-width: 800px) {
   .leaders-section{
     height: 90vh;
