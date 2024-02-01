@@ -261,7 +261,7 @@ li {
   align-items: center;
   position: absolute;
   padding: 2.5rem;
-  top: 2rem;
+  top: 4.2rem;
   opacity: 0;
   transition: opacity 1.2s ease-in-out;
 }
@@ -509,8 +509,8 @@ body.modal-open {
   }
 
   .logo-image {
-    margin-right: 0 !important;
-    width: 60px;
+    margin-left: -4.2rem;
+    width: 80px;
     height: 4.2rem;
   }
 
@@ -519,7 +519,7 @@ body.modal-open {
     height: auto;
   }
 } 
-/*
+
 @media only screen and (max-width: 1100px) {
   .NavBar-link {
     font-size: 1.2rem;
@@ -528,7 +528,7 @@ body.modal-open {
   .logo-image{
     height: 4.2rem;
     width: 5rem;
-    margin-left: -3.6rem;
+    margin-left: -3.1rem;
   }
   .hero-content {
     font-size: 2rem;
@@ -542,63 +542,24 @@ body.modal-open {
   .hero-text p {
     font-size: 1.1rem;
   }
-
-  .hero-text h5 {
-    font-size: 1rem;
-    margin-left: 65%;
-  }
-
-  .banner-section {
-    display: flex;
-    flex-direction: column;
-  }
-
-.leaders-section {
-  height: 70vh;
-}
-
-.leader-image {
-  width: 160px;
-  height: 160px;
-}
-
-.leader-card {
-  margin: 20px;
-  text-align: center;
-}
-
-.event-card {
-  width: 800px;
-  height: 230px;
-  margin-left: 150px;
-  padding-bottom: 2rem;
-}
-
-.program-section{
-  height: 60vh;
-}
-.program-card {
-  top: -10rem;
-  width: 12rem;
-  height: 13rem;
-  margin-bottom: 2rem;
-}
 }
 
 @media only screen and (max-width: 1000px) {
+  html{
+    font-size: 85%;
+  }
+
+  .logo-image{
+    height: 4.3rem;
+    width: 6rem;
+    margin-left: -3.2;
+  }
+
   .event-card{
-    margin-left: 100px;
-  }
-
-  .program-section{
-    height: 110vh;
-  }
-
-  .leaders-section{
-    height: 80vh;
+    font-size: 1.2rem;
   }
 }
-
+/*
 @media only screen and (max-width: 900px) {
   .navbar {
     height: 3rem;
