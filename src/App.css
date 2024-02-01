@@ -183,11 +183,12 @@ body {
 .content {
   margin: 2rem; 
   margin-top: 2rem;
-
+  font-size: 1.1rem;
 }
 
 h2 {
   margin-top: 3rem; 
+  margin-bottom: 1rem;
 }
 
 ul {
