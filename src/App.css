@@ -722,7 +722,7 @@ body.modal-open {
     width: 100%;
     position: absolute;
     background-color: rgb(66, 161, 224);
-    top: 3rem;
+    top: 5rem;
     left: 0;
     right: 0;
     z-index: 999;
