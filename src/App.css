@@ -677,7 +677,7 @@ body.modal-open {
     }
   
     .nav-links.active {
-      display: flex;
+      display: flex; 
     }
   
     .menu-icon {
