@@ -498,7 +498,7 @@ body.modal-open {
 
 /* End of Footer Section */
 
-/* Responsive Styles 
+/* Responsive Styles */
 @media only screen and (max-width: 1300px) {
   .navbar-nav {
     justify-content: center;
@@ -648,6 +648,18 @@ body.modal-open {
         height: 20rem;
         }
       }
+
+      
+  @media only screen and (max-width: 550px) {
+    .hero-content h1{
+      font-size: 5.2rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .hero-text h5{
+      margin-left: 52%;
+    }
+  }
       
 
   @media only screen and (max-width: 500px) {
@@ -808,9 +820,9 @@ height: 24rem;
   }
 }
 
-@media only screen and  (max-width: 440px) {
+@media only screen and  (max-width: 445px) {
   .hero-content h1{
-    font-size: 3.4rem;
+    font-size: 4rem;
     margin-bottom: 0.4rem;
   }
 
@@ -819,17 +831,16 @@ height: 24rem;
   }
 }
 
-@media only screen and (max-width: 375px) {
-  .hero-section{
-    position: relative;
-    height: 100vh;
-  }
 
-  .hero-content{
-    top: 25rem;
-    padding: 1rem;
+@media only screen and  (max-width: 409px) {
+  .hero-content h1{
+    font-size: 3.8rem;
+    margin-bottom: 0.4rem;
   }
+}
 
+
+@media only screen and (max-width: 385px) {
   .hero-content h1{
     font-size: 3.3rem;
     margin-bottom: 0.6rem;
@@ -838,15 +849,11 @@ height: 24rem;
   .hero-text h5{
     margin-left: 39%;
   }
-
-  .hero-text p{
-    font-size: 1.3rem;
-  }
 } 
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 375px){
   .hero-content h1{
-    font-size: 3.3rem;
+    font-size: 3.5rem;
     margin-bottom: 0.6rem;
   }
 
@@ -896,5 +903,5 @@ height: 24rem;
     margin: 2rem -1rem;
     height: 20rem;
     }
-} */
+}
 
