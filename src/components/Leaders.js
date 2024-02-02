@@ -15,6 +15,7 @@ import RI2 from "../assets/img/RI2.jpg";
   
   const LeadersSection = () => {
     return (
+      <div id="leaders">
       <div className="leaders-section">
               <div class="floating-bg"></div>
         <div className="leader-frame">
@@ -25,6 +26,7 @@ import RI2 from "../assets/img/RI2.jpg";
             </div>
           ))}
         </div>
+      </div>
       </div>
     );
   };
