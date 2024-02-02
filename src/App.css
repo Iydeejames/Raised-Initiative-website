@@ -10,6 +10,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 87%;
+  overflow-x: hidden;
 }
 
 body{
@@ -440,7 +441,7 @@ body.modal-open {
 
 .social-media {
   display: flex;
-  gap: 10px;
+  gap: 25px;
   margin-left: 25%;
   padding-right: 25%;
 
@@ -652,7 +653,7 @@ body.modal-open {
       
   @media only screen and (max-width: 550px) {
     .hero-content h1{
-      font-size: 5.2rem;
+      font-size: 5rem;
       margin-bottom: 0.3rem;
     }
 
@@ -697,12 +698,12 @@ body.modal-open {
     }
   
     .hero-content h1{
-      font-size: 3.6rem;
+      font-size: 4.4rem;
       margin-bottom: 0.6rem;
     }
   
     .hero-text h5{
-      margin-left: 55%;
+      margin-left: 50%;
     }
     
    .hero-content{
@@ -717,12 +718,12 @@ body.modal-open {
 
 @media only screen and  (max-width: 483px) {
   .hero-content h1{
-    font-size: 4.4rem;
+    font-size: 4.2rem;
     margin-bottom: 0.6rem;
   }
 
   .hero-text h5{
-    margin-left: 55%;
+    margin-left: 51%;
   }
 
   .program-card{
@@ -730,6 +731,17 @@ body.modal-open {
    }
 }
 
+
+@media only screen and  (max-width: 445px) {
+  .hero-content h1{
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .hero-text h5{
+    margin-left: 40%;
+  }
+}
 
 @media only screen and  (max-width: 440px) {
   .hero-content h1{
@@ -774,7 +786,7 @@ body.modal-open {
   }
 
   .hero-content h1{
-    font-size: 3.7rem;
+    font-size: 3.75rem;
     margin-bottom: 0.6rem;
   }
 
@@ -795,6 +807,13 @@ height: 24rem;
 }
 }
 
+@media only screen and  (max-width: 409px) {
+  .hero-content h1{
+    font-size: 3.8rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
 @media only screen and (max-width: 405px) {
   .hero-section{
     position: relative;
@@ -807,35 +826,16 @@ height: 24rem;
   }
 
   .hero-content h1{
-    font-size: 3.7rem;
+    font-size: 3.5rem;
     margin-bottom: 0.6rem;
   }
 
   .hero-text h5{
-    margin-left: 45%;
+    margin-left: 35%;
   }
 
   .hero-text p{
     font-size: 1.3rem;
-  }
-}
-
-@media only screen and  (max-width: 445px) {
-  .hero-content h1{
-    font-size: 4rem;
-    margin-bottom: 0.4rem;
-  }
-
-  .hero-text h5{
-    margin-left: 40%;
-  }
-}
-
-
-@media only screen and  (max-width: 409px) {
-  .hero-content h1{
-    font-size: 3.8rem;
-    margin-bottom: 0.4rem;
   }
 }
 
