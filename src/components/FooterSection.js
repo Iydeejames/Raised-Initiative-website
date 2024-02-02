@@ -18,6 +18,7 @@ const Footer = () => {
   };
 
   return (
+    <div id="contact">
     <footer className="footer-section">
     <div className="contact-bar">
         <h1>Contact Us</h1>
@@ -83,6 +84,7 @@ const Footer = () => {
         </a>
       </div>
     </footer>
+    </div>
   );
 };
 

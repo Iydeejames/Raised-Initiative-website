@@ -21,7 +21,7 @@ const HeroSection = () => {
   }, [currentIndex, images.length]);
 
   return (
-    <div id="home" className="hero-section"> {/* Add id="home" here */}
+    <div id="home" className="hero-section"> {/* id="home" here */}
       <div className="slideshow-container">
         {images.map((image, index) => (
           <div

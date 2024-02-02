@@ -122,6 +122,7 @@ const ProgramSection = () => {
   };
 
   return (
+    <div id="events">
     <div className="program-section">
       {programsData.map((program) => (
         <div key={program.id} className="program-card">
@@ -158,6 +159,7 @@ const ProgramSection = () => {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 };
