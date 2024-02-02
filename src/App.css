@@ -9,7 +9,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 95%;
+  font-size: 87%;
 }
 
 body{
@@ -150,7 +150,7 @@ body {
 
 
 .hero-text h1 {
-  font-size: 6rem;
+  font-size: 8rem;
   margin-top: 5rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-bottom: -1px;
@@ -165,7 +165,7 @@ body {
 
 .hero-text h5 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin-left: 72%;
   width: max-content;
   margin-top: -1rem;
