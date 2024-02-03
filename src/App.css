@@ -10,10 +10,11 @@
 html {
   scroll-behavior: smooth;
   font-size: 87%;
-  overflow-x: hidden;
+
 }
 
 body{
+  overflow-x: hidden;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
 };
 
@@ -809,7 +810,7 @@ height: 24rem;
 
 @media only screen and  (max-width: 409px) {
   .hero-content h1{
-    font-size: 3.8rem;
+    font-size: 44px;
     margin-bottom: 0.4rem;
   }
 }
@@ -826,12 +827,12 @@ height: 24rem;
   }
 
   .hero-content h1{
-    font-size: 3.5rem;
+    font-size: 44px;
     margin-bottom: 0.6rem;
   }
 
   .hero-text h5{
-    margin-left: 35%;
+    margin-left: 38%;
   }
 
   .hero-text p{
@@ -842,7 +843,7 @@ height: 24rem;
 
 @media only screen and (max-width: 385px) {
   .hero-content h1{
-    font-size: 3.3rem;
+    font-size: 41px;
     margin-bottom: 0.6rem;
   }
 
@@ -853,12 +854,12 @@ height: 24rem;
 
 @media only screen and (max-width: 375px){
   .hero-content h1{
-    font-size: 3.5rem;
+    font-size: 40px;
     margin-bottom: 0.6rem;
   }
 
   .hero-text h5{
-    margin-left: 41%;
+    margin-left: 39%;
   }
   .program-card{
     left: 1%;
