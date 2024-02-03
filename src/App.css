@@ -150,15 +150,16 @@ body {
   color: #000;
 }
 
-
 .hero-text h1 {
-  margin-right: 60%;
   font-size: 8rem;
   margin-top: 5rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-bottom: -1px;
-  width: max-content;
+  white-space: nowrap; /* Ensures that the text doesn't wrap to the next line */
+  overflow: hidden; /* Hides any overflowing text */
 }
+
+
 
 .hero-text p {
   margin-top: 4rem;
