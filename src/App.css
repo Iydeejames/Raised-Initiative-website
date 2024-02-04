@@ -258,7 +258,7 @@ li {
   width: auto;
   height: 390px;
   background-color: rgb(66, 161, 224);
-  border-radius: 16px;
+  border-radius: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -442,7 +442,7 @@ body.modal-open {
 
 .social-media {
   display: flex;
-  gap: 15px;
+  gap: 8px;
   margin-left: 25%;
   padding-right: 25%;
 
