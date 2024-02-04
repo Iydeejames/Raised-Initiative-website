@@ -442,15 +442,15 @@ body.modal-open {
 
 .social-media {
   display: flex;
-  gap: 25px;
+  gap: 15px;
   margin-left: 25%;
   padding-right: 25%;
 
 }
 
 .social-media a {
-  color: #131313;
-  font-size: 35px;
+  color: #fff;
+  font-size: 28px;
   text-decoration: none;
   padding: -2px;
   margin-bottom: -3.5rem;
@@ -532,7 +532,7 @@ body.modal-open {
   .logo-image{
     height: 4.2rem;
     width: 5rem;
-    margin-left: -3.1rem;
+    margin-left: -4rem;
   }
   .hero-content {
     font-size: 2rem;
