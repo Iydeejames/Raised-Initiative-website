@@ -747,7 +747,7 @@ body.modal-open {
 
 @media only screen and  (max-width: 445px) {
   .hero-content h1{
-    font-size: 4rem;
+    font-size: 3.8rem;
     margin-bottom: 0.4rem;
   }
 
@@ -822,7 +822,7 @@ height: 24rem;
 
 @media only screen and  (max-width: 409px) {
   .hero-content h1{
-    font-size: 44px;
+    font-size: 41px;
     margin-bottom: 0.4rem;
   }
 }
@@ -866,12 +866,12 @@ height: 24rem;
 
 @media screen and (max-width: 375px){
   .hero-content h1{
-    font-size: 40px;
+    font-size: 38px;
     margin-bottom: 0.6rem;
   }
 
   .hero-text h5{
-    margin-left: 39%;
+    margin-left: 37%;
   }
   .program-card{
     left: 1%;
@@ -883,12 +883,12 @@ height: 24rem;
 }
 @media only screen and (max-width: 360px){
   .hero-content h1{
-    font-size: 3.3rem;
+    font-size: 3.1rem;
     margin-bottom: 0.6rem;
   }
 
   .hero-text h5{
-    margin-left: 38%;
+    margin-left: 36%;
   }
   .program-card{
     left: 1%;

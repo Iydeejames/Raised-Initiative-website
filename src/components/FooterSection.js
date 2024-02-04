@@ -67,7 +67,7 @@ const Footer = () => {
         </div>
       )}
             <div className="social-media">
-        <a href="https://www.whatsapp.com/" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/233247447640" target="_blank" rel="noopener noreferrer">
           <FaWhatsapp />
         </a>
         <a href="https://www.instagram.com/raisedinitiatives?igshid=YTQwZjQ0Nml0OA==" target="_blank" rel="noopener noreferrer">
