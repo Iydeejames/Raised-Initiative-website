@@ -10,7 +10,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 89%;
-
+  overflow-x: hidden;
 }
 
 body{
@@ -257,7 +257,7 @@ li {
 .event-card {
   width: auto;
   height: 390px;
-  background: linear-gradient(to right, #014677d0, rgb(66, 161, 224));
+  background: linear-gradient(to right, #064cb6, rgb(66, 161, 224));
   border-radius: 90px;
   display: flex;
   justify-content: space-around;
@@ -309,15 +309,15 @@ li {
   background-color: #fff;
   color: rgb(66, 161, 224);
   border: none;
-  border-radius: 40%;
-  font-size: 15px;
-  padding: 7px;
+  border-radius: 90%;
+  font-size: 10px;
+  padding: 6px;
   cursor: pointer;
 }
 
 .prev-button:hover,
 .next-button:hover {
-  background-color: #918c8c;
+  background-color: #fff;
 }
 /* End of Events Section */
 
@@ -442,7 +442,7 @@ body.modal-open {
 
 .social-media {
   display: flex;
-  gap: 8px;
+  gap: 5px;
   margin-left: 25%;
   padding-right: 25%;
 
@@ -450,7 +450,7 @@ body.modal-open {
 
 .social-media a {
   color: #fff;
-  font-size: 28px;
+  font-size: 25px;
   text-decoration: none;
   padding: -2px;
   margin-bottom: -3.5rem;
@@ -570,6 +570,7 @@ body.modal-open {
 @media only screen and (max-width: 900px) {
   html{
     font-size: 75%;
+    overflow-x: hidden;
   }
   .navbar {
     height: 4rem;
@@ -598,6 +599,9 @@ body.modal-open {
     width: 6rem;
     margin-left: -3.5rem;
   }
+  html{
+    overflow-x: hidden;
+  }
 
   .navbar {
     height: 5rem;
@@ -606,6 +610,10 @@ body.modal-open {
 
 
 @media only screen and (max-width: 700px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .logo-image{
     margin-left: -2.9rem;
   }
@@ -632,6 +640,10 @@ body.modal-open {
   }
 
       @media only screen and (max-width: 590px) {
+        html{
+          overflow-x: hidden;
+        }
+
         .hero-section{
           position: relative;
           height: 100vh;
@@ -665,6 +677,10 @@ body.modal-open {
 
       
   @media only screen and (max-width: 570px) {
+    html{
+      overflow-x: hidden;
+    }
+
     .hero-content h1{
       font-size: 4.2rem;
       margin-bottom: 0.3rem;
@@ -677,6 +693,10 @@ body.modal-open {
       
 
   @media only screen and (max-width: 500px) {
+    html{
+      overflow-x: hidden;
+    }
+
     .nav-links {
       display: none;
       flex-direction: column;
@@ -730,6 +750,10 @@ body.modal-open {
 
 
 @media only screen and  (max-width: 483px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-content h1{
     font-size: 3.9rem;
     margin-bottom: 0.6rem;
@@ -746,6 +770,10 @@ body.modal-open {
 
 
 @media only screen and  (max-width: 445px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-content h1{
     font-size: 3.8rem;
     margin-bottom: 0.4rem;
@@ -757,6 +785,10 @@ body.modal-open {
 }
 
 @media only screen and  (max-width: 440px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-content h1{
     font-size: 3.6rem;
     margin-bottom: 0.4rem;
@@ -768,6 +800,10 @@ body.modal-open {
 }
 
 @media only screen and  (max-width: 414px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
@@ -821,6 +857,10 @@ height: 24rem;
 }
 
 @media only screen and  (max-width: 409px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-content h1{
     font-size: 41px;
     margin-bottom: 0.4rem;
@@ -828,6 +868,10 @@ height: 24rem;
 }
 
 @media only screen and (max-width: 405px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-section{
     position: relative;
     height: 100vh;
@@ -854,6 +898,10 @@ height: 24rem;
 
 
 @media only screen and (max-width: 388px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-content h1{
     font-size: 39px;
     margin-bottom: 0.6rem;
@@ -865,6 +913,10 @@ height: 24rem;
 } 
 
 @media screen and (max-width: 375px){
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-content h1{
     font-size: 38px;
     margin-bottom: 0.6rem;
@@ -882,6 +934,10 @@ height: 24rem;
     }
 }
 @media only screen and (max-width: 360px){
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-content h1{
     font-size: 3.1rem;
     margin-bottom: 0.6rem;
@@ -900,6 +956,10 @@ height: 24rem;
 }
 
 @media only screen and (max-width: 357px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-content h1{
     font-size: 3rem;
     margin-bottom: 0.6rem;
@@ -919,6 +979,10 @@ height: 24rem;
 }
 
 @media only screen and (max-width: 350px) {
+  html{
+    overflow-x: hidden;
+  }
+
   .hero-content h1{
     font-size: 2.8rem;
     margin-bottom: 0.6rem;
@@ -930,6 +994,10 @@ height: 24rem;
 }
 
 @media only screen and (max-width: 320px) {
+  html{
+    overflow-x: hidden;
+  }
+  
   .hero-content h1{
     font-size: 2.8rem;
     margin-bottom: 0.6rem;
