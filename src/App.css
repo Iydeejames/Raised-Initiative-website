@@ -257,7 +257,7 @@ li {
 .event-card {
   width: auto;
   height: 390px;
-  background: linear-gradient(to right, #064cb6, rgb(66, 161, 224));
+  background: linear-gradient(to right,  rgb(66, 161, 224), #27292bb9);
   border-radius: 90px;
   display: flex;
   justify-content: space-around;
@@ -437,18 +437,16 @@ body.modal-open {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  height: 80vh;
+  height: 50vh;
 }
 
 .social-media {
-
-  gap: 10px;
-
+  gap: 25px;
 }
 
 .social-media a {
   color: #000;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
   padding: -2px;
   margin-bottom: -3.5rem;
@@ -464,7 +462,7 @@ body.modal-open {
   border-radius: 50px;
   font-weight: 500;
   width: 60rem;
-  margin-top: -2rem;
+  margin-top: -1rem;
   margin-right: -0.1rem;
 }
 .phone,
