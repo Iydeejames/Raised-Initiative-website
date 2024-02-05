@@ -28,8 +28,8 @@ const Footer = () => {
             <div className="phone">
               <FaMobileAlt />
               <h3>Phone</h3>
-              <p>+000 000 000 0000</p>
-              <p>+000 000 000 0000</p>
+              <p>+233 247 447 640</p>
+              <p>+234 903 167 4415</p>
             </div>
             <div className="address">
             < FaMapMarkerAlt />
