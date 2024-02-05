@@ -49,6 +49,23 @@ const Footer = () => {
           <div className="support-bar" onClick={handleSupportClick}>
         <h3>Support</h3>
       </div>
+      <div className="social-media">
+        <a href="https://wa.me/233247447640" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp />
+        </a>
+        <a href="https://www.instagram.com/raisedinitiatives?igshid=YTQwZjQ0Nml0OA==" target="_blank" rel="noopener noreferrer">
+          <FaInstagram />
+        </a>
+        <a href="https://www.x.com/raisedinitiative?t=VlwTiilHy96dk_RPltc4yA&s=09" target="_blank" rel="noopener noreferrer">
+          <FaTwitter />
+        </a>
+        <a href="https://www.facebook.com/raisedinitiatives?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+          <FaFacebook />
+        </a>
+        <a href="https://www.linkedin.com/company/raisedinitiatives/" target="_blank" rel="noopener noreferrer">
+          <FaLinkedin />
+        </a>
+      </div>
         </div>
       </div>
 
@@ -66,23 +83,7 @@ const Footer = () => {
           </div>
         </div>
       )}
-            <div className="social-media">
-        <a href="https://wa.me/233247447640" target="_blank" rel="noopener noreferrer">
-          <FaWhatsapp />
-        </a>
-        <a href="https://www.instagram.com/raisedinitiatives?igshid=YTQwZjQ0Nml0OA==" target="_blank" rel="noopener noreferrer">
-          <FaInstagram />
-        </a>
-        <a href="https://www.x.com/raisedinitiative?t=VlwTiilHy96dk_RPltc4yA&s=09" target="_blank" rel="noopener noreferrer">
-          <FaTwitter />
-        </a>
-        <a href="https://www.facebook.com/raisedinitiatives?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
-          <FaFacebook />
-        </a>
-        <a href="https://www.linkedin.com/company/raisedinitiatives/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin />
-        </a>
-      </div>
+
     </footer>
     </div>
   );
