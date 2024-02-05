@@ -257,8 +257,8 @@ li {
 .event-card {
   width: auto;
   height: 390px;
-  background-color: rgb(66, 161, 224);
-  border-radius: 10px;
+  background: linear-gradient(to right, #014677d0, rgb(66, 161, 224));
+  border-radius: 90px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -266,7 +266,7 @@ li {
   padding: 2.5rem;
   top: 4.2rem;
   opacity: 0;
-  transition: opacity 1.2s ease-in-out;
+  transition: opacity 1.2s ease-in-out; 
 }
 
 .events-section {
