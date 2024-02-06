@@ -272,7 +272,7 @@ li {
 .events-section {
   justify-content: space-between;
   align-items: center;
-  height: 70vh;
+  height: 73vh;
   overflow: hidden;
   padding: 40px;
 }
@@ -991,6 +991,23 @@ height: 24rem;
   .hero-text h5{
     margin-left: 26%;
   }
+
+  .events-section{
+    height: 76vh;
+  }
+  .event-card{
+    height: 410px;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .events-section{
+    height: 82vh;
+  }
+  .event-card{
+    height: 450px;
+    font-size: small;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1005,5 +1022,13 @@ height: 24rem;
 
   .hero-text h5{
     margin-left: 24%;
+  }
+
+  .events-section{
+    height: 82vh;
+  }
+  .event-card{
+    height: 450px;
+    font-size: small;
   }
 }
