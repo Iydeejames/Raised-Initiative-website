@@ -257,14 +257,14 @@ li {
 .event-card {
   width: auto;
   height: 390px;
-  background: linear-gradient(to right,  rgb(66, 161, 224), #27292bb9);
+  background: linear-gradient(to right, #002835dc, rgb(66, 161, 224), rgb(66, 161, 224),rgb(66, 161, 224), rgb(66, 161, 224), #002835dc);
   border-radius: 90px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: absolute;
   padding: 2.5rem;
-  top: 4.2rem;
+  top: 3rem;
   opacity: 0;
   transition: opacity 1.2s ease-in-out; 
 }
@@ -272,7 +272,7 @@ li {
 .events-section {
   justify-content: space-between;
   align-items: center;
-  height: 65vh;
+  height: 70vh;
   overflow: hidden;
   padding: 40px;
 }
