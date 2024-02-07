@@ -352,6 +352,20 @@ li {
   object-fit: cover;
 }
 
+
+/* Style the Font Awesome icon */
+.download-icon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+}
+
 .overlay {
   position: absolute;
   top: 0;
