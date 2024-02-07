@@ -758,6 +758,18 @@ body.modal-open {
     margin-left: 7rem;
    }
 
+   .program-card .overlay {
+    display: none;
+  }
+
+  .program-card:hover {
+    transform: none;
+  }
+
+  .program-card:hover .download-icon {
+    display: block;
+    color: #fff;
+  }
 } 
 
 
