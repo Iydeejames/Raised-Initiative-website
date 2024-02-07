@@ -123,6 +123,7 @@ const ProgramSection = () => {
     setModalVisible(true);
   };
 
+  
   return (
     <div id="events">
       <div className="program-section">
@@ -137,6 +138,8 @@ const ProgramSection = () => {
             </div>
           </div>
         ))}
+
+
 
       {modalVisible && (
         <div className="modal">
