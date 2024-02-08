@@ -773,7 +773,7 @@ body.modal-open {
 
 
 @media only screen and  (max-width: 483px) {
-  html{
+  html{ 
     overflow-x: hidden;
   }
 
