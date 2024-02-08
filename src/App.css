@@ -766,9 +766,6 @@ body.modal-open {
     transform: none;
   }
 
-  .program-card:hover .download-icon {
-    display: block;
-  }
 } 
 
 
