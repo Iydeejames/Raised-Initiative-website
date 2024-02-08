@@ -443,16 +443,16 @@ body.modal-open {
 
 /* Style the Font Awesome icon */
 .download-icon {
-  width: 8vw;
+  width: 6vw;
   display: none;
   position: absolute;
   top: 50%;
-  right: 0.4rem;
+  right: 0.2rem;
   transform: translate(0, -50%);
   background-color: #ffffffea;
   color:  rgb(66, 161, 224);
-  padding: 6px;
-  padding-left: 10px;
+  padding: 5px;
+  padding-left: 6px;
   border-radius: 15px;
 }
 /*End of Program Section */
