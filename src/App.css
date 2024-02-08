@@ -441,6 +441,19 @@ body.modal-open {
   margin-top: 10px;
 }
 
+/* Style the Font Awesome icon */
+.download-icon {
+  width: 8vw;
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  background-color: #fff;
+  color:  rgb(66, 161, 224);
+  padding: 10px;
+  border-radius: 5px;
+}
 /*End of Program Section */
 
 /* Footer Section */
@@ -764,6 +777,10 @@ body.modal-open {
 
   .program-card:hover {
     transform: none;
+  }
+
+   .download-icon {
+    display: block;
   }
 
 } 

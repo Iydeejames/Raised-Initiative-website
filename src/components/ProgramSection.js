@@ -123,7 +123,23 @@ const ProgramSection = () => {
     setModalVisible(true);
   };
 
-
+  return (
+    <div id="events">
+    <div className="program-section">
+    {programsData.map((program) => (
+  <div key={program.id} className="program-card">
+    {/* FontAwesome icon visible on small screens */}
+    <div className="download-icon">
+      <a href="javascript:void(0)" onClick={() => openModal(program)}>
+        <FontAwesomeIcon icon={faDownload} />
+      </a>
+    </div>
+    <img src={program.image} alt={program.title} />
+    <div className={`overlay ${program.id}`}>
+      <button onClick={() => openModal(program)}>{program.title}</button>
+    </div>
+  </div>
+))}
 
 {/* return (
     <div id="events">
