@@ -447,12 +447,13 @@ body.modal-open {
   display: none;
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 0.4rem;
   transform: translate(0, -50%);
-  background-color: #fff;
+  background-color: #ffffffea;
   color:  rgb(66, 161, 224);
-  padding: 10px;
-  border-radius: 5px;
+  padding: 6px;
+  padding-left: 10px;
+  border-radius: 15px;
 }
 /*End of Program Section */
 
