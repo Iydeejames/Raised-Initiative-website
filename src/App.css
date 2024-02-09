@@ -430,18 +430,6 @@ body.modal-open {
 /* Style the Font Awesome icon */
 
 /* Style the Font Awesome icon */
-.download-icon {
-  width: 6vw;
-  display: none;
-  position: absolute;
-  top: 94.5%;
-  right: 0.3px;
-  transform: translate(0, -50%);
-
-  background-color: #fff;
-  padding: 6px;
-  border-radius: 5px;
-}
 
 .download-icon button {
   color: rgb(66, 161, 224);
@@ -449,6 +437,19 @@ body.modal-open {
   background: none;
   cursor: pointer;
 }
+
+.download-icon {
+  width: 6vw;
+  display: none;
+  position: absolute;
+  top: 94.5%;
+  right: 0.3px;
+  transform: translate(0, -50%);
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 5px;
+}
+
 /*End of Program Section */
 
 /* Footer Section */
