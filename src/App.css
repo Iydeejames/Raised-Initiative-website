@@ -437,10 +437,17 @@ body.modal-open {
   top: 94.5%;
   right: 0.3px;
   transform: translate(0, -50%);
-  color: rgb(66, 161, 224);
+
   background-color: #fff;
   padding: 6px;
   border-radius: 5px;
+}
+
+.download-icon button {
+  color: rgb(66, 161, 224);
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 /*End of Program Section */
 
