@@ -68,7 +68,7 @@ const Footer = () => {
       </div>
         </div>
       </div>
-
+      
       {showPayment && (
         <div className="payment-methods">
           <p>Choose a payment method:</p>
