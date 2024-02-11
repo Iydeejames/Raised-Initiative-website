@@ -1,21 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaWhatsapp, FaInstagram, FaTwitter, FaFacebook, FaLinkedin, FaMobileAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 
 const Footer = () => {
-  const [showPayment, setShowPayment] = useState(false);
-  const [cardNumber, setCardNumber] = useState("");
-  const [expirationDate, setExpirationDate] = useState("");
-  const [cvc, setCvc] = useState("");
 
-  const handleSupportClick = () => {
-    setShowPayment(!showPayment);
-  };
 
-  const handlePaymentSubmit = () => {
-    // Add logic later to handle the credit card payment
-    alert("Credit card payment submitted!");
-  };
+
 
   return (
     <div id="contact">
@@ -46,8 +36,8 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="support-bar" onClick={handleSupportClick}>
-        <h3>Support</h3>
+          <div className="support-bar">
+        <h3>Our Socials</h3>
       </div>
       <div className="social-media">
         <a href="https://wa.me/233247447640" target="_blank" rel="noopener noreferrer">
@@ -69,20 +59,6 @@ const Footer = () => {
         </div>
       </div>
       
-      {showPayment && (
-        <div className="payment-methods">
-          <p>Choose a payment method:</p>
-
-          {/* Credit Card Payment Method */}
-          <div>
-            <p>Credit Card:</p>
-            <p>Card Number: <input type="text" value={cardNumber} onChange={(e) => setCardNumber(e.target.value)} /></p>
-            <p>Expiration Date: <input type="text" value={expirationDate} onChange={(e) => setExpirationDate(e.target.value)} /></p>
-            <p>CVC: <input type="text" value={cvc} onChange={(e) => setCvc(e.target.value)} /></p>
-            <button onClick={handlePaymentSubmit}>Submit Payment</button>
-          </div>
-        </div>
-      )}
 
     </footer>
     </div>
