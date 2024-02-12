@@ -433,12 +433,13 @@ body.modal-open {
 
 .download-icon button {
   color: #000;
+  
   border: none;
   background: none;
   cursor: pointer;
 }
 
-.download-icon {
+.download-icon { 
   width: 6vw;
   display: none;
   position: absolute;
