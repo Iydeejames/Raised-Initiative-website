@@ -130,14 +130,12 @@ const ProgramSection = () => {
   <div key={program.id} className="program-card">
     {/* FontAwesome icon visible on small screens */}
     <div className="download-icon">
-      {/* Use a meaningful href value or use a button */}
       <button onClick={() => openModal(program)}>
         <FontAwesomeIcon icon={faDownload} />
       </button>
     </div>
     <img src={program.image} alt={program.title} />
     <div className={`overlay ${program.id}`}>
-      {/* Use a meaningful href value or use a button */}
       <button onClick={() => openModal(program)}>{program.title}</button>
     </div>
   </div>
