@@ -20,8 +20,6 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "gsap": "^3.12.4",
-    "react-paypal-button": "^4.1.1",
-    "react-paypal-button-v2": "^2.6.3",
     "react-router-dom": "^6.21.1",
     "react-scroll": "^1.9.0"
   },
