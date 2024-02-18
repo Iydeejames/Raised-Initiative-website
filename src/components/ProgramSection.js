@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-
 import RI5 from "../assets/img/RI5.jpg";
 import RI22 from "../assets/img/RI22.PNG";
 import RI23 from "../assets/img/RI23.JPG";
