@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import RI5 from "../assets/img/RI5.jpg";
 import RI22 from "../assets/img/RI22.PNG";
 import RI23 from "../assets/img/RI23.JPG";
@@ -122,9 +123,25 @@ const ProgramSection = () => {
     setModalVisible(true);
   };
 
+  return (
+    <div id="events">
+    <div className="program-section">
+    {programsData.map((program) => (
+  <div key={program.id} className="program-card">
+    {/* FontAwesome icon visible on small screens */}
+    <div className="download-icon">
+      <button onClick={() => openModal(program)}>
+        <FontAwesomeIcon icon={faDownload} />
+      </button>
+    </div>
+    <img src={program.image} alt={program.title} />
+    <div className={`overlay ${program.id}`}>
+      <button onClick={() => openModal(program)}>{program.title}</button>
+    </div>
+  </div>
+))}
 
-
- return (
+{/* return (
     <div id="events">
     <div className="program-section">
       {programsData.map((program) => (
@@ -135,7 +152,7 @@ const ProgramSection = () => {
           </div>
         </div>
       ))}
-
+ */}
 
       {modalVisible && (
         <div className="modal">
