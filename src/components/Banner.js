@@ -9,6 +9,7 @@ const BannerSection = () => {
           The mission of this organization is to be independent of any political ideology, religious doctrine, and economic interest but rather a value-adding organization driving the African development process through every positive means.
         </p>
 
+
         <h2>Our Aims and Objectives:</h2>
         <ul>
           <li>To raise conscious leaders to build a better Africa.</li>
